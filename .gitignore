@@ -1,0 +1,33 @@
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+
+# Secrets (keep .env.local.example, ignore the real ones)
+.env
+.env.*
+!.env.example
+!.env.local.example
+
+# Frontend (Next.js)
+node_modules/
+.next/
+out/
+*.tsbuildinfo
+next-env.d.ts
+npm-debug.log*
+
+# Backend (Python)
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Large model/data files (GitHub blocks files over 100 MB)
+*.pt
+*.pth
+*.h5
+*.onnx
+*.pkl
+*.ckpt
+*.safetensors
