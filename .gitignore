@@ -31,3 +31,7 @@ venv/
 *.pkl
 *.ckpt
 *.safetensors
+backend/models/*.hdf5
+backend/e-tsl-pose
+backend/datasets/
+backend/outputs/

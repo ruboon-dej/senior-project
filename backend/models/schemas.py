@@ -10,6 +10,8 @@ class ThaiToThSLResponse(BaseModel):
     inputText: str
     glosses: List[str]
     videoUrl: str
+    notFound: Optional[List[str]] = None
+    missingMessage: Optional[str] = None
 
 
 class ThSLToThaiResponse(BaseModel):
