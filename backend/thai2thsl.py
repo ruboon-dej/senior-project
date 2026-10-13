@@ -27,6 +27,10 @@ from pose_format.pose_visualizer import PoseVisualizer
 
 from pythainlp import word_tokenize
 
+# The training data (datasets/deepcut.csv) was tokenized with deepcut, so
+# inference must use the same engine or words won't match the vocabulary.
+TOKENIZER_ENGINE = "deepcut"
+
 from transformer_components import TransformerEncoder, TransformerDecoder, PositionalEmbedding
 from modified_trim_pose import list_components
 
@@ -133,15 +137,28 @@ thsl_vocab = thsl_vectorization.get_vocabulary()
 thsl_index_lookup = dict(zip(range(len(thsl_vocab)), thsl_vocab))
 max_decoded_sentence_length = 20
 
-def decode_sequence(input_sentence):
+thsl_token_index = {tok: idx for idx, tok in thsl_index_lookup.items()}
+
+def decode_sequence(input_sentence, block_repeats=True):
+    """
+    Greedy decoding. With block_repeats=True the model may not emit the same
+    gloss twice in a row: in the training data no gloss sequence repeats a gloss
+    back to back (0 of 4200 test references do), yet the greedy decoder
+    sometimes loops (e.g. the same gloss 20 times).
+    """
     tokenized_input_sentence = thai_vectorization([input_sentence])
     decoded_sentence = "[start]"
+    previous_token = None
     for i in range(max_decoded_sentence_length):
         tokenized_target_sentence = thsl_vectorization([decoded_sentence])[:, :-1]
         predictions = transformer([tokenized_input_sentence, tokenized_target_sentence])
-        
-        sampled_token_index = np.argmax(predictions[0, i, :])
+
+        scores = np.array(predictions[0, i, :], dtype=np.float32)
+        if block_repeats and previous_token in thsl_token_index:
+            scores[thsl_token_index[previous_token]] = -np.inf
+        sampled_token_index = int(np.argmax(scores))
         sampled_token = thsl_index_lookup[sampled_token_index]
+        previous_token = sampled_token
         decoded_sentence += " " + sampled_token
 
         if sampled_token == "[end]":
@@ -160,17 +177,24 @@ model.summary()
 model = tf.keras.models.load_model('models/pose-detector.hdf5')
 pose_directory = 'e-tsl-pose'
 
-def thai_to_tsl_glosses(sent: str) -> List:
+def thai_to_tsl_glosses(sent: str, skip_unknown: bool = False) -> List:
     """
     This function converts Thai text to glosses.
 
     Parameters:
         :param str sent: a Thai sentence such as ฉันกินส้มตำ, พ่อไปตลาด, แม่อยู่ที่บ้านตอนเช้า.
+        :param bool skip_unknown: if True, drop tokens that are not in the model's
+            Thai vocabulary before decoding, so the model is never asked to guess
+            them (it would otherwise map them to unrelated glosses).
 
     Returns: 
         :return: a list of glosses.
     """
-    s1 = word_tokenize(sent)
+    s1 = word_tokenize(sent, engine=TOKENIZER_ENGINE)
+    if skip_unknown:
+        s1 = [t for t in s1 if not _is_unknown_token(t)]
+        if not s1:
+            return []
     if len(s1) == 1:
         return s1
     s = " ".join(s1)
@@ -179,6 +203,24 @@ def thai_to_tsl_glosses(sent: str) -> List:
         s = s[:find_eat.end()] + " " + s[find_eat.end():]
     glosses = decode_sequence(s)
     return glosses.split(" ")  
+
+thai_known_words = set(thai_vectorization.get_vocabulary())
+
+def _is_unknown_token(t: str) -> bool:
+    """True if a token is a real word that the model's Thai vocabulary doesn't contain.
+    Whitespace and pure punctuation are never counted as unknown."""
+    t = t.strip()
+    if not t or not t.strip(string.punctuation):
+        return False
+    return t not in thai_known_words
+
+def find_unknown_words(sent: str) -> List[str]:
+    """Return tokens from the input that the model's Thai vocabulary doesn't contain."""
+    unknown = []
+    for t in word_tokenize(sent, engine=TOKENIZER_ENGINE):
+        if _is_unknown_token(t) and t.strip() not in unknown:
+            unknown.append(t.strip())
+    return unknown
 
 def merge_multiword_glosses(glosses: List[str], available: set) -> List[str]:
     merged = []

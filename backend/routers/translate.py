@@ -17,7 +17,9 @@ from models.schemas import (
     ThaiToThSLResponse,
     ThSLToThaiResponse,
 )
-from thai2thsl import thai_to_tsl_glosses, lookup, pose_sequence
+from thai2thsl import thai_to_tsl_glosses, lookup, pose_sequence, find_unknown_words
+from pronouns import normalize_pronouns, unsupported_pronouns
+from thai2thsl import TOKENIZER_ENGINE
 
 router = APIRouter(prefix="/api/translate", tags=["translate"])
 
@@ -32,7 +34,9 @@ pose_sequence_lock = threading.Lock()
 
 @router.post("/thai-to-thsl", response_model=ThaiToThSLResponse)
 def thai_to_thsl(payload: ThaiToThSLRequest, request: Request) -> ThaiToThSLResponse:
-    glosses_decoded = thai_to_tsl_glosses(payload.text)
+    text = normalize_pronouns(payload.text, TOKENIZER_ENGINE)
+    unknown_words = find_unknown_words(text)
+    glosses_decoded = thai_to_tsl_glosses(text)
 
     pose_list, not_found_list = lookup(list(glosses_decoded))
 
@@ -50,9 +54,19 @@ def thai_to_thsl(payload: ThaiToThSLRequest, request: Request) -> ThaiToThSLResp
 
     video_url = str(request.base_url).rstrip("/") + f"/videos/{unique_name}"
 
-    missing_message = None
+    messages = []
+    if unknown_words:
+        messages.append(
+            "ระบบไม่รู้จักคำ: " + ", ".join(unknown_words) + " (ผลแปลอาจไม่ถูกต้อง)"
+        )
     if not_found_list:
-        missing_message = "ไม่มีท่าสำหรับ: " + ", ".join(not_found_list)
+        messages.append("ไม่มีท่าสำหรับ: " + ", ".join(not_found_list))
+    no_data = unsupported_pronouns(payload.text, TOKENIZER_ENGINE)
+    if no_data:
+        messages.append(
+            "ไม่มีข้อมูลสรรพนาม: " + ", ".join(no_data) + " (ผลแปลอาจไม่ถูกต้อง)"
+        )
+    missing_message = " | ".join(messages) if messages else None
 
     return ThaiToThSLResponse(
         inputText=payload.text,
