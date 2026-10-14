@@ -31,3 +31,13 @@ venv/
 *.pkl
 *.ckpt
 *.safetensors
+backend/models/*.hdf5
+backend/e-tsl-pose
+backend/datasets/
+backend/outputs/
+backend/etsl_dataset/
+backend/gloss_check/
+*.bak
+*.new
+backend/results_*.csv
+backend/patch_translate.py
