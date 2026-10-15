@@ -1,9 +1,9 @@
 """
 Translation endpoints.
 
-thai-to-thsl now calls the real Thai2ThSL pipeline (thai2thsl.py, copied
-into this backend folder). thsl-to-thai is still mocked — nobody has built
-that direction yet.
+thai-to-thsl calls the real Thai2ThSL pipeline (thai2thsl.py, copied into
+this backend folder). thsl-to-thai is still mocked; nobody has built that
+direction yet.
 """
 
 import os
@@ -36,15 +36,16 @@ pose_sequence_lock = threading.Lock()
 def thai_to_thsl(payload: ThaiToThSLRequest, request: Request) -> ThaiToThSLResponse:
     text = normalize_pronouns(payload.text, TOKENIZER_ENGINE)
     unknown_words = find_unknown_words(text)
-    glosses_decoded = thai_to_tsl_glosses(text)
+    glosses_decoded = thai_to_tsl_glosses(text, skip_unknown=True)
 
     pose_list, not_found_list = lookup(list(glosses_decoded))
 
     if len(pose_list) == 0:
-        raise HTTPException(
-            status_code=404,
-            detail="There is no glosses matched with the database",
-        )
+        if unknown_words:
+            detail = "Unknown word(s): " + ", ".join(unknown_words) + ". Cannot translate."
+        else:
+            detail = "No glosses matched the sign database."
+        raise HTTPException(status_code=404, detail=detail)
 
     unique_name = f"{uuid.uuid4().hex}.mp4"
     unique_path = os.path.join(OUTPUT_DIR, unique_name)
@@ -57,15 +58,13 @@ def thai_to_thsl(payload: ThaiToThSLRequest, request: Request) -> ThaiToThSLResp
     messages = []
     if unknown_words:
         messages.append(
-            "ระบบไม่รู้จักคำ: " + ", ".join(unknown_words) + " (ผลแปลอาจไม่ถูกต้อง)"
+            "Unknown word(s): " + ", ".join(unknown_words) + " (skipped in translation)"
         )
     if not_found_list:
-        messages.append("ไม่มีท่าสำหรับ: " + ", ".join(not_found_list))
+        messages.append("No sign available for: " + ", ".join(not_found_list))
     no_data = unsupported_pronouns(payload.text, TOKENIZER_ENGINE)
     if no_data:
-        messages.append(
-            "ไม่มีข้อมูลสรรพนาม: " + ", ".join(no_data) + " (ผลแปลอาจไม่ถูกต้อง)"
-        )
+        messages.append("No sign data for pronoun(s): " + ", ".join(no_data))
     missing_message = " | ".join(messages) if messages else None
 
     return ThaiToThSLResponse(
@@ -91,6 +90,6 @@ async def thsl_to_thai(video: UploadFile = File(...)) -> ThSLToThaiResponse:
     _ = await video.read()  # read to simulate handling the upload
 
     return ThSLToThaiResponse(
-        text="ตัวอย่างข้อความที่แปลได้ (mock)",
+        text="Example translated text (mock)",
         confidence=0.87,
     )
