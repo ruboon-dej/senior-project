@@ -1,0 +1,7 @@
+datasets/
+etsl_dataset/
+gloss_check/
+outputs/
+models/*.hdf5
+results_*.csv
+e-tsl-pose
