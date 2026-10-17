@@ -1,17 +1,10 @@
-"""
-Translation endpoints.
-
-thai-to-thsl calls the real Thai2ThSL pipeline (thai2thsl.py, copied into
-this backend folder). thsl-to-thai is still mocked; nobody has built that
-direction yet.
-"""
-
 import os
 import shutil
 import threading
 import uuid
 
 from fastapi import APIRouter, HTTPException, Request, UploadFile, File
+from pythainlp import word_tokenize
 from models.schemas import (
     ThaiToThSLRequest,
     ThaiToThSLResponse,
@@ -20,29 +13,53 @@ from models.schemas import (
 from thai2thsl import thai_to_tsl_glosses, lookup, pose_sequence, find_unknown_words
 from pronouns import normalize_pronouns, unsupported_pronouns
 from thai2thsl import TOKENIZER_ENGINE
+from name_handling import split_by_names, fingerspell, MAX_SPELL_LETTERS
 
 router = APIRouter(prefix="/api/translate", tags=["translate"])
 
 OUTPUT_DIR = os.path.join(os.path.dirname(os.path.dirname(__file__)), "outputs")
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
-# Serializes pose_sequence() calls: it always writes to the fixed filename
-# "quick_test.mp4" in the current working directory, so two requests
-# rendering at the same time would overwrite each other's output.
 pose_sequence_lock = threading.Lock()
 
 
 @router.post("/thai-to-thsl", response_model=ThaiToThSLResponse)
 def thai_to_thsl(payload: ThaiToThSLRequest, request: Request) -> ThaiToThSLResponse:
     text = normalize_pronouns(payload.text, TOKENIZER_ENGINE)
-    unknown_words = find_unknown_words(text)
-    glosses_decoded = thai_to_tsl_glosses(text, skip_unknown=True)
+    if not text.strip():
+        raise HTTPException(
+            status_code=404,
+            detail="No translatable words after removing pronouns without signs.",
+        )
+
+    tokens = word_tokenize(text, engine=TOKENIZER_ENGINE)
+    segments = split_by_names(tokens, lambda word: bool(find_unknown_words(word)))
+
+    glosses_decoded = []
+    unknown_words = []
+    spelled_names = []
+    skipped_names = []
+
+    for kind, value in segments:
+        if kind == "name":
+            letters = fingerspell(value)
+            _, missing_letters = lookup(letters)
+            if 0 < len(letters) <= MAX_SPELL_LETTERS and not missing_letters:
+                glosses_decoded.extend(letters)
+                spelled_names.append(value)
+            else:
+                skipped_names.append(value)
+        elif value.strip():
+            unknown_words.extend(find_unknown_words(value))
+            glosses_decoded.extend(thai_to_tsl_glosses(value, skip_unknown=True))
 
     pose_list, not_found_list = lookup(list(glosses_decoded))
 
     if len(pose_list) == 0:
         if unknown_words:
             detail = "Unknown word(s): " + ", ".join(unknown_words) + ". Cannot translate."
+        elif skipped_names:
+            detail = "Name(s) cannot be fingerspelled: " + ", ".join(skipped_names) + ". Cannot translate."
         else:
             detail = "No glosses matched the sign database."
         raise HTTPException(status_code=404, detail=detail)
@@ -56,6 +73,12 @@ def thai_to_thsl(payload: ThaiToThSLRequest, request: Request) -> ThaiToThSLResp
     video_url = str(request.base_url).rstrip("/") + f"/videos/{unique_name}"
 
     messages = []
+    if spelled_names:
+        messages.append("Fingerspelled name(s): " + ", ".join(spelled_names))
+    if skipped_names:
+        messages.append(
+            "Name(s) skipped (too long or missing letter signs): " + ", ".join(skipped_names)
+        )
     if unknown_words:
         messages.append(
             "Unknown word(s): " + ", ".join(unknown_words) + " (skipped in translation)"
@@ -64,7 +87,9 @@ def thai_to_thsl(payload: ThaiToThSLRequest, request: Request) -> ThaiToThSLResp
         messages.append("No sign available for: " + ", ".join(not_found_list))
     no_data = unsupported_pronouns(payload.text, TOKENIZER_ENGINE)
     if no_data:
-        messages.append("No sign data for pronoun(s): " + ", ".join(no_data))
+        messages.append(
+            "No sign data for pronoun(s): " + ", ".join(no_data) + " (skipped in translation)"
+        )
     missing_message = " | ".join(messages) if messages else None
 
     return ThaiToThSLResponse(
@@ -78,16 +103,7 @@ def thai_to_thsl(payload: ThaiToThSLRequest, request: Request) -> ThaiToThSLResp
 
 @router.post("/thsl-to-thai", response_model=ThSLToThaiResponse)
 async def thsl_to_thai(video: UploadFile = File(...)) -> ThSLToThaiResponse:
-    """
-    TODO: replace with a real call, e.g.:
-
-        from thsl2thai.pipeline import recognize
-        text, confidence = recognize(await video.read())
-
-    For now: returns a fixed placeholder sentence regardless of the
-    uploaded video's actual content.
-    """
-    _ = await video.read()  # read to simulate handling the upload
+    _ = await video.read()
 
     return ThSLToThaiResponse(
         text="Example translated text (mock)",
