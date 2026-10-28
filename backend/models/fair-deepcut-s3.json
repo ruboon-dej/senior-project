@@ -1,0 +1,1 @@
+{"tokenizer": "deepcut", "seed": 3, "source_len": 20, "csv": "datasets/fair_deepcut.csv", "vocab": "datasets/th_vocab-fair-deepcut.txt", "model": "models/fair-deepcut-s3.hdf5", "best_epoch": 13, "best_val_loss": 0.3370291590690613, "best_val_accuracy": 0.9540956020355225, "epochs_done": 30}

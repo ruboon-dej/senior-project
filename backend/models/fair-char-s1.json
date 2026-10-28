@@ -1,0 +1,1 @@
+{"tokenizer": "char", "seed": 1, "source_len": 108, "csv": "datasets/fair_char.csv", "vocab": "datasets/th_vocab-fair-char.txt", "model": "models/fair-char-s1.hdf5", "best_epoch": 25, "best_val_loss": 0.24860991537570953, "best_val_accuracy": 0.9510028958320618}

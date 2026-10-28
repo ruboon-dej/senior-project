@@ -1,0 +1,1 @@
+{"tokenizer": "attacut", "seed": 1, "source_len": 20, "csv": "datasets/fair_attacut.csv", "vocab": "datasets/th_vocab-fair-attacut.txt", "model": "models/fair-attacut-s1.hdf5", "best_epoch": 12, "best_val_loss": 0.2341492623090744, "best_val_accuracy": 0.965052604675293}

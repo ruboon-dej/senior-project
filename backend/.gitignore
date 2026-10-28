@@ -5,3 +5,13 @@ outputs/
 models/*.hdf5
 results_*.csv
 e-tsl-pose
+*.log
+*.bak*
+*.pdf
+.~lock.*
+eval_out.txt
+pose_review_*/
+*_2seeds.csv
+*_3seeds.csv
+gold_thsl_*.csv
+fair_gold_rows*.csv
