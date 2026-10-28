@@ -10,6 +10,8 @@ import random
 import string
 import re
 import os
+import glob
+import json
 import numpy as np
 import pandas as pd
 from tensorflow import keras
@@ -27,9 +29,25 @@ from pose_format.pose_visualizer import PoseVisualizer
 
 from pythainlp import word_tokenize
 
-# The training data (datasets/deepcut.csv) was tokenized with deepcut, so
-# inference must use the same engine or words won't match the vocabulary.
-TOKENIZER_ENGINE = "deepcut"
+TOKENIZER_ENGINE = "newmm"
+
+
+def pick_best_run(tokenizer):
+    best = None
+    for path in sorted(glob.glob("models/fair-%s-s*.json" % tokenizer)):
+        with open(path, encoding="utf8") as f:
+            meta = json.load(f)
+        if "best_val_loss" not in meta or meta.get("epochs_done", 0) < 30:
+            continue
+        if best is None or meta["best_val_loss"] < best["best_val_loss"]:
+            best = meta
+    if best is None:
+        raise FileNotFoundError("no finished fair-%s models found in models/" % tokenizer)
+    return best
+
+
+RUN = pick_best_run(TOKENIZER_ENGINE)
+print("model run:", RUN["model"], "val_loss", RUN["best_val_loss"], "source_len", RUN["source_len"])
 
 from transformer_components import TransformerEncoder, TransformerDecoder, PositionalEmbedding
 from modified_trim_pose import list_components
@@ -40,8 +58,8 @@ os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
 print(tf.config.list_physical_devices('GPU'))
 
 # Load dataset
-df = pd.read_csv("datasets/deepcut.csv") 
-with open("datasets/th_vocab-deepcut.txt", 'r', encoding="utf8") as f:
+df = pd.read_csv(RUN["csv"])
+with open(RUN["vocab"], 'r', encoding="utf8") as f:
     data = f.read()
     word_bag = data.split('\n')
 print(len(word_bag))
@@ -72,6 +90,7 @@ strip_chars = strip_chars.replace("]", "")
 
 vocab_size = len(word_bag)
 sequence_length = 20
+thai_sequence_length = RUN["source_len"]
 batch_size = 64
 
 
@@ -83,7 +102,7 @@ def custom_standardization(input_string):
 thai_vectorization = TextVectorization(
     max_tokens=vocab_size,
     output_mode="int",
-    output_sequence_length=sequence_length,
+    output_sequence_length=thai_sequence_length,
 )
 thsl_vectorization = TextVectorization(
     max_tokens=vocab_size,
@@ -126,7 +145,7 @@ custom_objects = {"PositionalEmbedding": PositionalEmbedding,
                   "TransformerDecoder":TransformerDecoder,
                  }
 
-transformer = tf.keras.models.load_model('models/thai2thsl-deepcut.hdf5', custom_objects=custom_objects)
+transformer = tf.keras.models.load_model(RUN["model"], custom_objects=custom_objects)
 
 # Show the model architecture
 transformer.summary()
@@ -198,9 +217,6 @@ def thai_to_tsl_glosses(sent: str, skip_unknown: bool = False) -> List:
     if len(s1) == 1:
         return s1
     s = " ".join(s1)
-    if re.search('กินข้าว', s):
-        find_eat = re.search('กิน', s)
-        s = s[:find_eat.end()] + " " + s[find_eat.end():]
     glosses = decode_sequence(s)
     return glosses.split(" ")  
 
