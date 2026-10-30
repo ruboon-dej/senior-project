@@ -1,14 +1,27 @@
+# ==============================
+# FastAPI Backend
+# ==============================
 fastapi==0.111.0
 uvicorn[standard]==0.30.1
 python-multipart==0.0.9
 pydantic==2.7.4
 
-# Thai2ThSL pipeline dependencies — install via your existing "sign" conda
-# env instead if you already have these (TensorFlow especially should match
-# the version your model was trained/saved with).
-tensorflow
-pythainlp
-pandas
-numpy
-pose-format
-spoken-to-signed
+# ==============================
+# Thai2ThSL Dependencies
+# ==============================
+tensorflow==2.15.0.post1
+keras==2.15.0
+numpy==1.26.4
+pandas==2.2.3
+pythainlp==5.4.0
+
+# ==============================
+# Pose Processing
+# ==============================
+pose-format==0.14.1
+mediapipe==0.10.21
+
+# ==============================
+# Spoken-to-Signed
+# ==============================
+git+https://github.com/ZurichNLP/spoken-to-signed-translation.git@6ba0f5469ea62ef925e92a92e7b747ce2da5a5d1
