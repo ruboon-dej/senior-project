@@ -39,6 +39,12 @@ python -m uvicorn main:app --reload --port 8000
 Visit `http://localhost:8000/docs` for interactive API docs (auto-generated
 by FastAPI).
 
+#### Running Backend the first tome
+please install e-tsl-pose.tar, convert them to normal folder, and put it in the backend directory.
+Additionally, download the model-datasets.tar, convert them, pull out files inside models folder and combine them with the existing files in there, and put the whole datasets folder in the backend directory.
+
+These 2 .tar files are accesible via https://drive.google.com/drive/folders/1Qu6MWlXaRNMoeyAtvIbUBBYnpAR0o-gS
+
 ### Frontend
 
 ```bash
