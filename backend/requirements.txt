@@ -7,7 +7,7 @@ python-multipart==0.0.9
 pydantic==2.7.4
 
 # ==============================
-# Thai2ThSL Dependencies
+# Thai2ThSL / Machine Learning
 # ==============================
 tensorflow==2.15.0.post1
 keras==2.15.0
@@ -16,10 +16,24 @@ pandas==2.2.3
 pythainlp==5.4.0
 
 # ==============================
+# Thai Tokenization - Required by deepcut
+# ==============================
+onnxruntime==1.20.1
+
+# ==============================
 # Pose Processing
 # ==============================
 pose-format==0.14.1
 mediapipe==0.10.21
+
+# ==============================
+# Video Rendering
+# ==============================
+vidgear==0.3.3
+setuptools==80.9.0
+
+# Keep protobuf compatible with TensorFlow 2.15
+protobuf==4.25.9
 
 # ==============================
 # Spoken-to-Signed

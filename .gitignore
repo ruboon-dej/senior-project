@@ -41,3 +41,5 @@ backend/gloss_check/
 *.new
 backend/results_*.csv
 backend/patch_translate.py
+e-tsl-pose.tar
+models-datasets.tar
