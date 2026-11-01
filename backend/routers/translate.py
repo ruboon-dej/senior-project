@@ -20,6 +20,7 @@ from models.schemas import (
 from thai2thsl import thai_to_tsl_glosses, lookup, pose_sequence, find_unknown_words
 from pronouns import normalize_pronouns, unsupported_pronouns
 from thai2thsl import TOKENIZER_ENGINE
+from gloss_backends import get_glosses
 
 router = APIRouter(prefix="/api/translate", tags=["translate"])
 
@@ -36,7 +37,7 @@ pose_sequence_lock = threading.Lock()
 def thai_to_thsl(payload: ThaiToThSLRequest, request: Request) -> ThaiToThSLResponse:
     text = normalize_pronouns(payload.text, TOKENIZER_ENGINE)
     unknown_words = find_unknown_words(text)
-    glosses_decoded = thai_to_tsl_glosses(text)
+    glosses_decoded = get_glosses(text)
 
     pose_list, not_found_list = lookup(list(glosses_decoded))
 
