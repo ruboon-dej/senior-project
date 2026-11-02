@@ -39,11 +39,22 @@ python -m uvicorn main:app --reload --port 8000
 Visit `http://localhost:8000/docs` for interactive API docs (auto-generated
 by FastAPI).
 
-#### Running Backend the first tome
+#### Running Backend the first time
 Please install e-tsl-pose.tar, convert them to normal folder, and put it in the backend directory.
 Additionally, download the model-datasets.tar, convert them, pull out files inside models folder and combine them with the existing files in there, and put the whole datasets folder in the backend directory.
 
 These 2 .tar files are accesible via https://drive.google.com/drive/folders/1Qu6MWlXaRNMoeyAtvIbUBBYnpAR0o-gS
+
+For a person who use 5070 ti please run this
+```bash
+python -m pip install torch==2.7.1 \
+  --index-url https://download.pytorch.org/whl/cu128
+```
+
+Please train the model first by running
+```bash
+python train_mt5.py
+```
 
 ### Frontend
 
@@ -56,14 +67,20 @@ npm run dev
 
 #### When running Frontend for the first time
 Please check whther nvm is installed yet. via
-`command -v nvm`
+```bash
+command -v nvm
+```
 See if there is anything returned or not.
 
 If nothing is installed, run
-`curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash`
+```bash
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
+```
 
 Then
-`source ~/.zshrc`
+```bash
+source ~/.zshrc
+```
 
 Visit `http://localhost:3000`.
 
@@ -90,3 +107,8 @@ Visit `http://localhost:3000`.
    submitting text and playing the video — happy to help design that when
    you're ready.
 5. Add authentication / rate limiting before deploying publicly.
+
+# Installing LLM
+```bash
+curl -LsSf https://llama.app/install.sh | sh
+```
