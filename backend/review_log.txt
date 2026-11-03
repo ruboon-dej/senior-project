@@ -1,0 +1,301 @@
+0it [00:00, ?it/s][32m22:42:46[0m :: [1;35m  WriteGear  [0m :: [1;31m[2;33mWARNING [0m :: [1;37mOptional `-disable_ffmpeg_window` flag is only available on Windows OS with `logging=False`. Discarding![0m
+5it [00:00, 48.98it/s]26it [00:00, 141.91it/s]44it [00:00, 154.81it/s]60it [00:00, 148.21it/s]75it [00:00, 144.20it/s]92it [00:00, 151.03it/s]108it [00:00, 142.91it/s]123it [00:00, 137.62it/s]138it [00:00, 141.05it/s]155it [00:01, 148.35it/s]173it [00:01, 154.93it/s]191it [00:01, 159.69it/s]201it [00:01, 148.96it/s]
+0 สาธารณรัฐประชาธิปไตยประชาชนลาว exact
+0it [00:00, ?it/s][32m22:42:48[0m :: [1;35m  WriteGear  [0m :: [1;31m[2;33mWARNING [0m :: [1;37mOptional `-disable_ffmpeg_window` flag is only available on Windows OS with `logging=False`. Discarding![0m
+5it [00:00, 49.12it/s]23it [00:00, 122.36it/s]40it [00:00, 139.77it/s]55it [00:00, 140.20it/s]70it [00:00, 141.74it/s]86it [00:00, 146.97it/s]102it [00:00, 149.13it/s]118it [00:00, 149.80it/s]134it [00:00, 149.62it/s]149it [00:01, 149.69it/s]164it [00:01, 148.44it/s]180it [00:01, 149.96it/s]195it [00:01, 148.34it/s]201it [00:01, 144.45it/s]
+1 นอนหลับ exact
+0it [00:00, ?it/s][32m22:42:50[0m :: [1;35m  WriteGear  [0m :: [1;31m[2;33mWARNING [0m :: [1;37mOptional `-disable_ffmpeg_window` flag is only available on Windows OS with `logging=False`. Discarding![0m
+4it [00:00, 38.87it/s]21it [00:00, 113.74it/s]38it [00:00, 136.13it/s]52it [00:00, 135.05it/s]66it [00:00, 135.33it/s]80it [00:00, 136.27it/s]94it [00:00, 124.22it/s]109it [00:00, 129.21it/s]124it [00:00, 133.48it/s]138it [00:01, 135.21it/s]152it [00:01, 133.83it/s]166it [00:01, 135.37it/s]181it [00:01, 137.58it/s]196it [00:01, 140.21it/s]211it [00:01, 141.33it/s]226it [00:01, 142.57it/s]241it [00:01, 143.85it/s]256it [00:01, 144.87it/s]271it [00:01, 145.73it/s]276it [00:02, 136.33it/s]
+2 เขียด exact
+0it [00:00, ?it/s][32m22:42:53[0m :: [1;35m  WriteGear  [0m :: [1;31m[2;33mWARNING [0m :: [1;37mOptional `-disable_ffmpeg_window` flag is only available on Windows OS with `logging=False`. Discarding![0m
+4it [00:00, 38.62it/s]20it [00:00, 106.68it/s]36it [00:00, 127.73it/s]49it [00:00, 126.85it/s]63it [00:00, 130.63it/s]78it [00:00, 134.62it/s]93it [00:00, 138.01it/s]107it [00:00, 133.34it/s]121it [00:00, 131.45it/s]135it [00:01, 129.09it/s]148it [00:01, 128.02it/s]161it [00:01, 128.38it/s]175it [00:01, 127.91it/s]188it [00:01, 122.81it/s]201it [00:01, 121.80it/s]215it [00:01, 126.47it/s]226it [00:01, 126.55it/s]
+3 คนแซงหน้า exact
+0it [00:00, ?it/s][32m22:42:56[0m :: [1;35m  WriteGear  [0m :: [1;31m[2;33mWARNING [0m :: [1;37mOptional `-disable_ffmpeg_window` flag is only available on Windows OS with `logging=False`. Discarding![0m
+4it [00:00, 39.29it/s]22it [00:00, 118.88it/s]39it [00:00, 139.29it/s]53it [00:00, 136.75it/s]67it [00:00, 136.07it/s]82it [00:00, 139.33it/s]97it [00:00, 142.32it/s]112it [00:00, 143.95it/s]128it [00:00, 145.97it/s]143it [00:01, 146.01it/s]158it [00:01, 145.42it/s]173it [00:01, 145.71it/s]189it [00:01, 147.81it/s]201it [00:01, 140.91it/s]
+4 จ่ายเงินเป็นประจำ exact
+0it [00:00, ?it/s][32m22:42:58[0m :: [1;35m  WriteGear  [0m :: [1;31m[2;33mWARNING [0m :: [1;37mOptional `-disable_ffmpeg_window` flag is only available on Windows OS with `logging=False`. Discarding![0m
+4it [00:00, 39.12it/s]22it [00:00, 118.16it/s]38it [00:00, 135.90it/s]52it [00:00, 134.99it/s]67it [00:00, 138.13it/s]83it [00:00, 142.32it/s]98it [00:00, 143.37it/s]114it [00:00, 145.89it/s]129it [00:00, 146.59it/s]145it [00:01, 147.49it/s]161it [00:01, 148.28it/s]176it [00:01, 141.17it/s]
+5 ดอกไม้ exact
+0it [00:00, ?it/s][32m22:43:00[0m :: [1;35m  WriteGear  [0m :: [1;31m[2;33mWARNING [0m :: [1;37mOptional `-disable_ffmpeg_window` flag is only available on Windows OS with `logging=False`. Discarding![0m
+4it [00:00, 38.56it/s]22it [00:00, 118.15it/s]39it [00:00, 135.99it/s]53it [00:00, 134.93it/s]67it [00:00, 136.24it/s]82it [00:00, 139.33it/s]97it [00:00, 141.35it/s]113it [00:00, 144.53it/s]128it [00:00, 144.85it/s]143it [00:01, 144.86it/s]158it [00:01, 144.60it/s]173it [00:01, 143.18it/s]188it [00:01, 140.59it/s]201it [00:01, 138.10it/s]
+6 หั่น exact
+0it [00:00, ?it/s][32m22:43:02[0m :: [1;35m  WriteGear  [0m :: [1;31m[2;33mWARNING [0m :: [1;37mOptional `-disable_ffmpeg_window` flag is only available on Windows OS with `logging=False`. Discarding![0m
+4it [00:00, 38.98it/s]22it [00:00, 117.89it/s]38it [00:00, 134.47it/s]52it [00:00, 131.40it/s]66it [00:00, 133.52it/s]81it [00:00, 137.80it/s]96it [00:00, 141.38it/s]111it [00:00, 143.36it/s]126it [00:00, 143.17it/s]141it [00:01, 137.62it/s]155it [00:01, 138.20it/s]170it [00:01, 140.82it/s]185it [00:01, 142.32it/s]200it [00:01, 143.28it/s]215it [00:01, 144.90it/s]226it [00:01, 138.64it/s]
+7 คิ้ว exact
+0it [00:00, ?it/s][32m22:43:05[0m :: [1;35m  WriteGear  [0m :: [1;31m[2;33mWARNING [0m :: [1;37mOptional `-disable_ffmpeg_window` flag is only available on Windows OS with `logging=False`. Discarding![0m
+4it [00:00, 38.01it/s]21it [00:00, 111.94it/s]38it [00:00, 133.12it/s]52it [00:00, 132.77it/s]66it [00:00, 132.25it/s]81it [00:00, 135.62it/s]95it [00:00, 136.55it/s]110it [00:00, 138.24it/s]125it [00:00, 140.54it/s]140it [00:01, 142.42it/s]151it [00:01, 134.49it/s]
+8 พูดตรง exact
+0it [00:00, ?it/s][32m22:43:06[0m :: [1;35m  WriteGear  [0m :: [1;31m[2;33mWARNING [0m :: [1;37mOptional `-disable_ffmpeg_window` flag is only available on Windows OS with `logging=False`. Discarding![0m
+4it [00:00, 39.67it/s]22it [00:00, 118.49it/s]38it [00:00, 136.79it/s]52it [00:00, 136.70it/s]67it [00:00, 138.38it/s]83it [00:00, 143.17it/s]99it [00:00, 146.07it/s]115it [00:00, 146.87it/s]130it [00:00, 146.52it/s]145it [00:01, 147.53it/s]161it [00:01, 148.85it/s]176it [00:01, 148.70it/s]176it [00:01, 141.60it/s]
+9 ของเขา exact
+0it [00:00, ?it/s][32m22:43:08[0m :: [1;35m  WriteGear  [0m :: [1;31m[2;33mWARNING [0m :: [1;37mOptional `-disable_ffmpeg_window` flag is only available on Windows OS with `logging=False`. Discarding![0m
+4it [00:00, 39.15it/s]21it [00:00, 113.16it/s]38it [00:00, 133.83it/s]52it [00:00, 133.78it/s]67it [00:00, 135.85it/s]82it [00:00, 139.12it/s]97it [00:00, 141.20it/s]112it [00:00, 141.85it/s]127it [00:00, 143.08it/s]142it [00:01, 143.96it/s]157it [00:01, 144.31it/s]173it [00:01, 146.80it/s]189it [00:01, 148.70it/s]201it [00:01, 139.98it/s]
+10 ช้อนชา exact
+0it [00:00, ?it/s][32m22:43:10[0m :: [1;35m  WriteGear  [0m :: [1;31m[2;33mWARNING [0m :: [1;37mOptional `-disable_ffmpeg_window` flag is only available on Windows OS with `logging=False`. Discarding![0m
+4it [00:00, 39.30it/s]21it [00:00, 114.71it/s]38it [00:00, 137.25it/s]52it [00:00, 137.82it/s]67it [00:00, 139.46it/s]83it [00:00, 143.81it/s]99it [00:00, 145.90it/s]115it [00:00, 147.60it/s]130it [00:00, 147.22it/s]145it [00:01, 147.86it/s]161it [00:01, 148.93it/s]177it [00:01, 149.81it/s]192it [00:01, 147.55it/s]207it [00:01, 145.78it/s]222it [00:01, 146.34it/s]226it [00:01, 142.62it/s]
+11 เลย_sign1 exact
+0it [00:00, ?it/s][32m22:43:13[0m :: [1;35m  WriteGear  [0m :: [1;31m[2;33mWARNING [0m :: [1;37mOptional `-disable_ffmpeg_window` flag is only available on Windows OS with `logging=False`. Discarding![0m
+4it [00:00, 38.80it/s]22it [00:00, 117.27it/s]37it [00:00, 131.53it/s]51it [00:00, 115.49it/s]65it [00:00, 120.67it/s]80it [00:00, 128.27it/s]95it [00:00, 133.25it/s]110it [00:00, 137.15it/s]125it [00:00, 139.51it/s]140it [00:01, 142.27it/s]155it [00:01, 142.56it/s]170it [00:01, 144.30it/s]176it [00:01, 133.52it/s]
+12 เปตอง exact
+0it [00:00, ?it/s][32m22:43:15[0m :: [1;35m  WriteGear  [0m :: [1;31m[2;33mWARNING [0m :: [1;37mOptional `-disable_ffmpeg_window` flag is only available on Windows OS with `logging=False`. Discarding![0m
+4it [00:00, 39.89it/s]22it [00:00, 119.43it/s]39it [00:00, 138.30it/s]53it [00:00, 138.39it/s]68it [00:00, 139.36it/s]83it [00:00, 142.16it/s]98it [00:00, 143.88it/s]113it [00:00, 144.33it/s]128it [00:00, 143.91it/s]143it [00:01, 141.30it/s]158it [00:01, 139.23it/s]172it [00:01, 139.26it/s]187it [00:01, 141.34it/s]201it [00:01, 138.80it/s]
+13 จำนวนลดลง exact
+0it [00:00, ?it/s][32m22:43:17[0m :: [1;35m  WriteGear  [0m :: [1;31m[2;33mWARNING [0m :: [1;37mOptional `-disable_ffmpeg_window` flag is only available on Windows OS with `logging=False`. Discarding![0m
+4it [00:00, 39.54it/s]22it [00:00, 119.27it/s]39it [00:00, 138.87it/s]53it [00:00, 134.66it/s]67it [00:00, 136.50it/s]82it [00:00, 139.13it/s]97it [00:00, 140.75it/s]112it [00:00, 143.48it/s]127it [00:00, 144.75it/s]143it [00:01, 146.47it/s]159it [00:01, 148.70it/s]175it [00:01, 151.15it/s]176it [00:01, 140.95it/s]
+14 ยาน้ำ exact
+0it [00:00, ?it/s][32m22:43:19[0m :: [1;35m  WriteGear  [0m :: [1;31m[2;33mWARNING [0m :: [1;37mOptional `-disable_ffmpeg_window` flag is only available on Windows OS with `logging=False`. Discarding![0m
+4it [00:00, 39.22it/s]21it [00:00, 115.05it/s]39it [00:00, 139.31it/s]53it [00:00, 136.72it/s]68it [00:00, 138.39it/s]82it [00:00, 137.17it/s]97it [00:00, 137.93it/s]111it [00:00, 130.34it/s]125it [00:00, 132.26it/s]140it [00:01, 136.16it/s]154it [00:01, 135.15it/s]168it [00:01, 133.83it/s]176it [00:01, 131.48it/s]
+15 ญ exact
+0it [00:00, ?it/s][32m22:43:21[0m :: [1;35m  WriteGear  [0m :: [1;31m[2;33mWARNING [0m :: [1;37mOptional `-disable_ffmpeg_window` flag is only available on Windows OS with `logging=False`. Discarding![0m
+4it [00:00, 39.59it/s]21it [00:00, 111.70it/s]34it [00:00, 115.98it/s]47it [00:00, 119.87it/s]60it [00:00, 122.44it/s]73it [00:00, 121.18it/s]87it [00:00, 126.04it/s]102it [00:00, 131.50it/s]116it [00:00, 131.13it/s]130it [00:01, 130.58it/s]144it [00:01, 131.23it/s]159it [00:01, 134.10it/s]174it [00:01, 138.53it/s]176it [00:01, 127.60it/s]
+16 เพลงชาติ exact
+0it [00:00, ?it/s][32m22:43:23[0m :: [1;35m  WriteGear  [0m :: [1;31m[2;33mWARNING [0m :: [1;37mOptional `-disable_ffmpeg_window` flag is only available on Windows OS with `logging=False`. Discarding![0m
+4it [00:00, 38.67it/s]21it [00:00, 112.75it/s]38it [00:00, 134.34it/s]53it [00:00, 136.18it/s]67it [00:00, 136.80it/s]83it [00:00, 141.75it/s]98it [00:00, 142.48it/s]113it [00:00, 144.14it/s]129it [00:00, 146.89it/s]145it [00:01, 147.50it/s]151it [00:01, 138.88it/s]
+17 คุย exact
+0it [00:00, ?it/s][32m22:43:25[0m :: [1;35m  WriteGear  [0m :: [1;31m[2;33mWARNING [0m :: [1;37mOptional `-disable_ffmpeg_window` flag is only available on Windows OS with `logging=False`. Discarding![0m
+4it [00:00, 38.54it/s]21it [00:00, 114.44it/s]38it [00:00, 137.37it/s]52it [00:00, 136.96it/s]67it [00:00, 138.09it/s]83it [00:00, 141.54it/s]99it [00:00, 145.45it/s]115it [00:00, 147.12it/s]130it [00:00, 146.04it/s]145it [00:01, 146.41it/s]151it [00:01, 139.42it/s]
+18 ถั่วพู exact
+0it [00:00, ?it/s][32m22:43:26[0m :: [1;35m  WriteGear  [0m :: [1;31m[2;33mWARNING [0m :: [1;37mOptional `-disable_ffmpeg_window` flag is only available on Windows OS with `logging=False`. Discarding![0m
+4it [00:00, 39.12it/s]21it [00:00, 115.23it/s]38it [00:00, 135.20it/s]52it [00:00, 135.25it/s]66it [00:00, 136.57it/s]81it [00:00, 140.32it/s]96it [00:00, 141.50it/s]111it [00:00, 140.85it/s]126it [00:00, 142.60it/s]141it [00:01, 143.43it/s]156it [00:01, 142.94it/s]171it [00:01, 142.66it/s]186it [00:01, 143.53it/s]201it [00:01, 144.65it/s]217it [00:01, 146.27it/s]226it [00:01, 139.96it/s]
+19 มหาสมุทร exact
+0it [00:00, ?it/s][32m22:43:29[0m :: [1;35m  WriteGear  [0m :: [1;31m[2;33mWARNING [0m :: [1;37mOptional `-disable_ffmpeg_window` flag is only available on Windows OS with `logging=False`. Discarding![0m
+4it [00:00, 39.86it/s]22it [00:00, 121.28it/s]39it [00:00, 138.36it/s]53it [00:00, 136.50it/s]68it [00:00, 138.89it/s]83it [00:00, 142.06it/s]98it [00:00, 144.53it/s]113it [00:00, 140.93it/s]128it [00:00, 140.65it/s]143it [00:01, 141.46it/s]158it [00:01, 143.43it/s]173it [00:01, 143.59it/s]176it [00:01, 138.68it/s]
+20 จบ exact
+0it [00:00, ?it/s][32m22:43:31[0m :: [1;35m  WriteGear  [0m :: [1;31m[2;33mWARNING [0m :: [1;37mOptional `-disable_ffmpeg_window` flag is only available on Windows OS with `logging=False`. Discarding![0m
+5it [00:00, 47.04it/s]23it [00:00, 119.80it/s]40it [00:00, 137.02it/s]54it [00:00, 135.84it/s]69it [00:00, 138.38it/s]84it [00:00, 141.70it/s]99it [00:00, 143.12it/s]114it [00:00, 144.28it/s]129it [00:00, 144.28it/s]145it [00:01, 146.39it/s]160it [00:01, 145.14it/s]175it [00:01, 146.54it/s]176it [00:01, 139.94it/s]
+21 เข้าใจ exact
+0it [00:00, ?it/s][32m22:43:33[0m :: [1;35m  WriteGear  [0m :: [1;31m[2;33mWARNING [0m :: [1;37mOptional `-disable_ffmpeg_window` flag is only available on Windows OS with `logging=False`. Discarding![0m
+4it [00:00, 39.75it/s]20it [00:00, 110.18it/s]37it [00:00, 134.11it/s]51it [00:00, 134.70it/s]65it [00:00, 135.41it/s]80it [00:00, 138.73it/s]95it [00:00, 141.24it/s]110it [00:00, 143.40it/s]125it [00:00, 144.76it/s]140it [00:01, 145.46it/s]155it [00:01, 146.30it/s]171it [00:01, 147.70it/s]187it [00:01, 148.69it/s]201it [00:01, 140.60it/s]
+22 ครอบครัว exact
+0it [00:00, ?it/s][32m22:43:35[0m :: [1;35m  WriteGear  [0m :: [1;31m[2;33mWARNING [0m :: [1;37mOptional `-disable_ffmpeg_window` flag is only available on Windows OS with `logging=False`. Discarding![0m
+4it [00:00, 39.67it/s]22it [00:00, 119.32it/s]39it [00:00, 136.80it/s]53it [00:00, 136.79it/s]67it [00:00, 136.22it/s]82it [00:00, 139.48it/s]97it [00:00, 140.85it/s]112it [00:00, 142.91it/s]127it [00:00, 144.70it/s]143it [00:01, 146.06it/s]151it [00:01, 138.29it/s]
+23 ภูเก็ต exact
+0it [00:00, ?it/s][32m22:43:36[0m :: [1;35m  WriteGear  [0m :: [1;31m[2;33mWARNING [0m :: [1;37mOptional `-disable_ffmpeg_window` flag is only available on Windows OS with `logging=False`. Discarding![0m
+4it [00:00, 38.82it/s]21it [00:00, 114.40it/s]38it [00:00, 134.45it/s]52it [00:00, 134.81it/s]66it [00:00, 135.44it/s]81it [00:00, 139.33it/s]96it [00:00, 142.07it/s]111it [00:00, 143.86it/s]127it [00:00, 145.71it/s]142it [00:01, 144.95it/s]158it [00:01, 146.89it/s]174it [00:01, 149.26it/s]176it [00:01, 139.92it/s]
+24 คณิตศาสตร์ exact
+0it [00:00, ?it/s][32m22:43:38[0m :: [1;35m  WriteGear  [0m :: [1;31m[2;33mWARNING [0m :: [1;37mOptional `-disable_ffmpeg_window` flag is only available on Windows OS with `logging=False`. Discarding![0m
+4it [00:00, 39.88it/s]21it [00:00, 113.03it/s]38it [00:00, 135.50it/s]52it [00:00, 134.05it/s]67it [00:00, 137.06it/s]82it [00:00, 139.72it/s]97it [00:00, 142.37it/s]113it [00:00, 144.85it/s]129it [00:00, 146.62it/s]145it [00:01, 148.10it/s]160it [00:01, 147.18it/s]175it [00:01, 147.36it/s]190it [00:01, 147.59it/s]206it [00:01, 148.53it/s]222it [00:01, 151.26it/s]226it [00:01, 142.37it/s]
+25 ทะเล exact
+0it [00:00, ?it/s][32m22:43:41[0m :: [1;35m  WriteGear  [0m :: [1;31m[2;33mWARNING [0m :: [1;37mOptional `-disable_ffmpeg_window` flag is only available on Windows OS with `logging=False`. Discarding![0m
+5it [00:00, 47.05it/s]24it [00:00, 126.07it/s]41it [00:00, 141.92it/s]56it [00:00, 143.67it/s]71it [00:00, 145.44it/s]86it [00:00, 145.27it/s]102it [00:00, 148.15it/s]117it [00:00, 148.15it/s]132it [00:00, 147.05it/s]147it [00:01, 147.17it/s]162it [00:01, 147.68it/s]177it [00:01, 147.48it/s]193it [00:01, 148.35it/s]208it [00:01, 145.30it/s]223it [00:01, 142.42it/s]226it [00:01, 142.88it/s]
+26 วันขึ้นปีใหม่_sign1 exact
+0it [00:00, ?it/s][32m22:43:43[0m :: [1;35m  WriteGear  [0m :: [1;31m[2;33mWARNING [0m :: [1;37mOptional `-disable_ffmpeg_window` flag is only available on Windows OS with `logging=False`. Discarding![0m
+4it [00:00, 39.02it/s]21it [00:00, 114.45it/s]37it [00:00, 134.50it/s]51it [00:00, 134.19it/s]66it [00:00, 138.72it/s]82it [00:00, 143.13it/s]98it [00:00, 145.79it/s]113it [00:00, 145.77it/s]129it [00:00, 148.52it/s]145it [00:01, 149.49it/s]161it [00:01, 150.03it/s]176it [00:01, 142.47it/s]
+27 เปิด exact
+0it [00:00, ?it/s][32m22:43:45[0m :: [1;35m  WriteGear  [0m :: [1;31m[2;33mWARNING [0m :: [1;37mOptional `-disable_ffmpeg_window` flag is only available on Windows OS with `logging=False`. Discarding![0m
+4it [00:00, 38.74it/s]22it [00:00, 117.88it/s]38it [00:00, 136.23it/s]52it [00:00, 136.41it/s]66it [00:00, 136.29it/s]81it [00:00, 139.18it/s]96it [00:00, 142.13it/s]111it [00:00, 143.93it/s]127it [00:00, 145.91it/s]143it [00:01, 148.44it/s]159it [00:01, 149.42it/s]175it [00:01, 149.74it/s]190it [00:01, 149.80it/s]201it [00:01, 142.01it/s]
+28 ธนาคารกรุงเทพ จำกัด (มหาชน) exact
+0it [00:00, ?it/s][32m22:43:47[0m :: [1;35m  WriteGear  [0m :: [1;31m[2;33mWARNING [0m :: [1;37mOptional `-disable_ffmpeg_window` flag is only available on Windows OS with `logging=False`. Discarding![0m
+4it [00:00, 39.16it/s]21it [00:00, 111.91it/s]38it [00:00, 133.41it/s]52it [00:00, 132.44it/s]66it [00:00, 133.75it/s]81it [00:00, 137.17it/s]96it [00:00, 140.67it/s]111it [00:00, 142.72it/s]126it [00:00, 142.82it/s]141it [00:01, 142.75it/s]156it [00:01, 142.20it/s]171it [00:01, 144.38it/s]187it [00:01, 146.02it/s]202it [00:01, 143.08it/s]217it [00:01, 144.11it/s]232it [00:01, 142.66it/s]247it [00:01, 136.74it/s]261it [00:01, 125.22it/s]274it [00:02, 126.43it/s]287it [00:02, 119.21it/s]300it [00:02, 120.98it/s]301it [00:02, 132.68it/s]
+29 ตู้เสื้อผ้า exact
+0it [00:00, ?it/s][32m22:43:51[0m :: [1;35m  WriteGear  [0m :: [1;31m[2;33mWARNING [0m :: [1;37mOptional `-disable_ffmpeg_window` flag is only available on Windows OS with `logging=False`. Discarding![0m
+3it [00:00, 29.62it/s]17it [00:00, 90.92it/s]33it [00:00, 121.62it/s]46it [00:00, 123.61it/s]59it [00:00, 118.53it/s]71it [00:00, 109.62it/s]85it [00:00, 116.35it/s]99it [00:00, 121.55it/s]114it [00:00, 127.93it/s]127it [00:01, 126.45it/s]140it [00:01, 126.63it/s]154it [00:01, 128.23it/s]168it [00:01, 130.71it/s]182it [00:01, 125.73it/s]195it [00:01, 119.68it/s]201it [00:01, 119.44it/s]
+30 สนุก(1) exact
+0it [00:00, ?it/s][32m22:43:53[0m :: [1;35m  WriteGear  [0m :: [1;31m[2;33mWARNING [0m :: [1;37mOptional `-disable_ffmpeg_window` flag is only available on Windows OS with `logging=False`. Discarding![0m
+4it [00:00, 38.92it/s]21it [00:00, 111.90it/s]38it [00:00, 135.23it/s]52it [00:00, 135.30it/s]66it [00:00, 136.38it/s]81it [00:00, 138.98it/s]96it [00:00, 140.80it/s]111it [00:00, 142.97it/s]127it [00:00, 145.22it/s]143it [00:01, 147.55it/s]159it [00:01, 149.35it/s]175it [00:01, 150.92it/s]191it [00:01, 149.33it/s]201it [00:01, 141.30it/s]
+31 ปวดฟัน exact
+0it [00:00, ?it/s][32m22:43:55[0m :: [1;35m  WriteGear  [0m :: [1;31m[2;33mWARNING [0m :: [1;37mOptional `-disable_ffmpeg_window` flag is only available on Windows OS with `logging=False`. Discarding![0m
+4it [00:00, 39.80it/s]22it [00:00, 121.50it/s]39it [00:00, 140.80it/s]54it [00:00, 141.17it/s]69it [00:00, 141.10it/s]85it [00:00, 145.59it/s]100it [00:00, 146.33it/s]115it [00:00, 145.98it/s]130it [00:00, 145.48it/s]145it [00:01, 146.19it/s]161it [00:01, 147.21it/s]176it [00:01, 146.96it/s]191it [00:01, 147.58it/s]201it [00:01, 142.79it/s]
+32 ตลอด exact
+0it [00:00, ?it/s][32m22:43:57[0m :: [1;35m  WriteGear  [0m :: [1;31m[2;33mWARNING [0m :: [1;37mOptional `-disable_ffmpeg_window` flag is only available on Windows OS with `logging=False`. Discarding![0m
+5it [00:00, 46.86it/s]23it [00:00, 119.05it/s]39it [00:00, 133.47it/s]53it [00:00, 133.11it/s]67it [00:00, 134.24it/s]83it [00:00, 139.62it/s]98it [00:00, 142.38it/s]114it [00:00, 145.19it/s]129it [00:00, 146.40it/s]144it [00:01, 146.77it/s]159it [00:01, 147.44it/s]174it [00:01, 148.12it/s]189it [00:01, 148.04it/s]201it [00:01, 140.87it/s]
+33 ผลเล็ก exact
+0it [00:00, ?it/s][32m22:43:59[0m :: [1;35m  WriteGear  [0m :: [1;31m[2;33mWARNING [0m :: [1;37mOptional `-disable_ffmpeg_window` flag is only available on Windows OS with `logging=False`. Discarding![0m
+4it [00:00, 38.44it/s]21it [00:00, 114.47it/s]37it [00:00, 134.52it/s]51it [00:00, 130.46it/s]65it [00:00, 133.19it/s]79it [00:00, 135.02it/s]93it [00:00, 130.46it/s]108it [00:00, 136.22it/s]123it [00:00, 139.46it/s]138it [00:01, 141.59it/s]153it [00:01, 143.28it/s]168it [00:01, 143.82it/s]183it [00:01, 143.95it/s]198it [00:01, 143.45it/s]213it [00:01, 143.10it/s]228it [00:01, 143.55it/s]243it [00:01, 143.31it/s]251it [00:01, 137.69it/s]
+34 ห้างสรรพสินค้าพาต้า สาขาปิ่นเกล้า exact
+0it [00:00, ?it/s][32m22:44:02[0m :: [1;35m  WriteGear  [0m :: [1;31m[2;33mWARNING [0m :: [1;37mOptional `-disable_ffmpeg_window` flag is only available on Windows OS with `logging=False`. Discarding![0m
+4it [00:00, 39.27it/s]21it [00:00, 114.15it/s]38it [00:00, 134.64it/s]52it [00:00, 131.93it/s]66it [00:00, 133.46it/s]80it [00:00, 135.48it/s]95it [00:00, 138.73it/s]110it [00:00, 141.53it/s]125it [00:00, 140.37it/s]140it [00:01, 140.92it/s]155it [00:01, 137.26it/s]169it [00:01, 136.52it/s]176it [00:01, 134.49it/s]
+35 ดุ exact
+0it [00:00, ?it/s][32m22:44:04[0m :: [1;35m  WriteGear  [0m :: [1;31m[2;33mWARNING [0m :: [1;37mOptional `-disable_ffmpeg_window` flag is only available on Windows OS with `logging=False`. Discarding![0m
+2it [00:00, 19.89it/s]18it [00:00, 98.85it/s]35it [00:00, 126.77it/s]48it [00:00, 127.27it/s]62it [00:00, 128.61it/s]75it [00:00, 128.87it/s]90it [00:00, 135.38it/s]105it [00:00, 138.04it/s]120it [00:00, 139.34it/s]134it [00:01, 138.06it/s]149it [00:01, 140.45it/s]165it [00:01, 144.12it/s]180it [00:01, 144.47it/s]195it [00:01, 145.88it/s]201it [00:01, 135.16it/s]
+36 จระเข้ exact
+0it [00:00, ?it/s][32m22:44:06[0m :: [1;35m  WriteGear  [0m :: [1;31m[2;33mWARNING [0m :: [1;37mOptional `-disable_ffmpeg_window` flag is only available on Windows OS with `logging=False`. Discarding![0m
+4it [00:00, 39.23it/s]22it [00:00, 120.02it/s]39it [00:00, 140.07it/s]53it [00:00, 137.98it/s]67it [00:00, 138.15it/s]83it [00:00, 142.01it/s]99it [00:00, 145.34it/s]114it [00:00, 143.23it/s]129it [00:00, 142.70it/s]144it [00:01, 142.02it/s]159it [00:01, 142.83it/s]175it [00:01, 144.86it/s]176it [00:01, 139.24it/s]
+37 ค่ำ exact
+0it [00:00, ?it/s][32m22:44:08[0m :: [1;35m  WriteGear  [0m :: [1;31m[2;33mWARNING [0m :: [1;37mOptional `-disable_ffmpeg_window` flag is only available on Windows OS with `logging=False`. Discarding![0m
+3it [00:00, 29.59it/s]20it [00:00, 109.37it/s]36it [00:00, 129.16it/s]50it [00:00, 132.17it/s]65it [00:00, 135.36it/s]80it [00:00, 137.96it/s]95it [00:00, 139.52it/s]110it [00:00, 141.39it/s]125it [00:00, 142.38it/s]140it [00:01, 144.20it/s]155it [00:01, 145.29it/s]170it [00:01, 146.14it/s]176it [00:01, 137.40it/s]
+38 พริกไทย exact
+0it [00:00, ?it/s][32m22:44:10[0m :: [1;35m  WriteGear  [0m :: [1;31m[2;33mWARNING [0m :: [1;37mOptional `-disable_ffmpeg_window` flag is only available on Windows OS with `logging=False`. Discarding![0m
+5it [00:00, 47.07it/s]22it [00:00, 117.23it/s]39it [00:00, 136.39it/s]53it [00:00, 134.95it/s]67it [00:00, 135.96it/s]82it [00:00, 140.12it/s]97it [00:00, 140.60it/s]112it [00:00, 142.90it/s]126it [00:00, 135.73it/s]
+39 ไม่สำคัญ exact
+0it [00:00, ?it/s][32m22:44:11[0m :: [1;35m  WriteGear  [0m :: [1;31m[2;33mWARNING [0m :: [1;37mOptional `-disable_ffmpeg_window` flag is only available on Windows OS with `logging=False`. Discarding![0m
+4it [00:00, 39.07it/s]21it [00:00, 115.01it/s]38it [00:00, 139.00it/s]52it [00:00, 137.51it/s]66it [00:00, 138.19it/s]81it [00:00, 140.30it/s]96it [00:00, 141.96it/s]111it [00:00, 142.40it/s]126it [00:00, 142.65it/s]141it [00:01, 144.07it/s]151it [00:01, 138.40it/s]
+40 เมื่อวาน exact
+0it [00:00, ?it/s][32m22:44:13[0m :: [1;35m  WriteGear  [0m :: [1;31m[2;33mWARNING [0m :: [1;37mOptional `-disable_ffmpeg_window` flag is only available on Windows OS with `logging=False`. Discarding![0m
+2it [00:00, 19.80it/s]13it [00:00, 72.16it/s]29it [00:00, 110.53it/s]44it [00:00, 123.35it/s]58it [00:00, 128.72it/s]73it [00:00, 132.78it/s]88it [00:00, 137.63it/s]103it [00:00, 139.75it/s]118it [00:00, 141.64it/s]133it [00:01, 143.60it/s]149it [00:01, 145.98it/s]164it [00:01, 146.95it/s]176it [00:01, 133.80it/s]
+41 สรุป exact
+0it [00:00, ?it/s][32m22:44:15[0m :: [1;35m  WriteGear  [0m :: [1;31m[2;33mWARNING [0m :: [1;37mOptional `-disable_ffmpeg_window` flag is only available on Windows OS with `logging=False`. Discarding![0m
+4it [00:00, 39.95it/s]22it [00:00, 121.05it/s]39it [00:00, 138.71it/s]53it [00:00, 137.84it/s]68it [00:00, 139.52it/s]83it [00:00, 142.94it/s]99it [00:00, 146.02it/s]101it [00:00, 137.02it/s]
+42 แม่ exact
+0it [00:00, ?it/s][32m22:44:16[0m :: [1;35m  WriteGear  [0m :: [1;31m[2;33mWARNING [0m :: [1;37mOptional `-disable_ffmpeg_window` flag is only available on Windows OS with `logging=False`. Discarding![0m
+5it [00:00, 47.15it/s]23it [00:00, 120.07it/s]39it [00:00, 136.69it/s]53it [00:00, 134.28it/s]68it [00:00, 137.33it/s]83it [00:00, 141.11it/s]98it [00:00, 143.88it/s]113it [00:00, 144.57it/s]128it [00:00, 146.06it/s]143it [00:01, 146.15it/s]158it [00:01, 147.28it/s]174it [00:01, 149.29it/s]176it [00:01, 140.98it/s]
+43 แข่งขัน exact
+0it [00:00, ?it/s][32m22:44:18[0m :: [1;35m  WriteGear  [0m :: [1;31m[2;33mWARNING [0m :: [1;37mOptional `-disable_ffmpeg_window` flag is only available on Windows OS with `logging=False`. Discarding![0m
+5it [00:00, 46.95it/s]23it [00:00, 119.53it/s]40it [00:00, 137.56it/s]54it [00:00, 137.05it/s]69it [00:00, 140.72it/s]85it [00:00, 144.12it/s]100it [00:00, 144.81it/s]115it [00:00, 144.42it/s]130it [00:00, 145.02it/s]145it [00:01, 146.01it/s]160it [00:01, 146.35it/s]175it [00:01, 145.25it/s]191it [00:01, 146.95it/s]206it [00:01, 145.91it/s]221it [00:01, 146.43it/s]226it [00:01, 141.94it/s]
+44 หอพัก exact
+0it [00:00, ?it/s][32m22:44:21[0m :: [1;35m  WriteGear  [0m :: [1;31m[2;33mWARNING [0m :: [1;37mOptional `-disable_ffmpeg_window` flag is only available on Windows OS with `logging=False`. Discarding![0m
+4it [00:00, 39.02it/s]22it [00:00, 118.20it/s]39it [00:00, 136.92it/s]53it [00:00, 137.64it/s]68it [00:00, 139.55it/s]84it [00:00, 143.60it/s]99it [00:00, 144.77it/s]114it [00:00, 135.70it/s]128it [00:00, 124.36it/s]142it [00:01, 127.66it/s]157it [00:01, 132.47it/s]172it [00:01, 135.59it/s]176it [00:01, 132.67it/s]
+45 ศาลากลางจังหวัด exact
+0it [00:00, ?it/s][32m22:44:23[0m :: [1;35m  WriteGear  [0m :: [1;31m[2;33mWARNING [0m :: [1;37mOptional `-disable_ffmpeg_window` flag is only available on Windows OS with `logging=False`. Discarding![0m
+4it [00:00, 39.46it/s]21it [00:00, 114.84it/s]38it [00:00, 134.84it/s]52it [00:00, 135.16it/s]66it [00:00, 135.90it/s]80it [00:00, 137.22it/s]95it [00:00, 138.81it/s]110it [00:00, 141.62it/s]125it [00:00, 143.10it/s]140it [00:01, 144.11it/s]155it [00:01, 144.68it/s]171it [00:01, 147.80it/s]187it [00:01, 149.18it/s]201it [00:01, 140.00it/s]
+46 รถคว่ำ(1) exact
+0it [00:00, ?it/s][32m22:44:25[0m :: [1;35m  WriteGear  [0m :: [1;31m[2;33mWARNING [0m :: [1;37mOptional `-disable_ffmpeg_window` flag is only available on Windows OS with `logging=False`. Discarding![0m
+5it [00:00, 47.05it/s]23it [00:00, 119.35it/s]40it [00:00, 137.98it/s]54it [00:00, 137.53it/s]69it [00:00, 140.56it/s]85it [00:00, 144.92it/s]101it [00:00, 146.51it/s]116it [00:00, 147.30it/s]132it [00:00, 149.24it/s]148it [00:01, 149.41it/s]163it [00:01, 148.67it/s]179it [00:01, 150.24it/s]195it [00:01, 150.95it/s]201it [00:01, 143.80it/s]
+47 ปลานิล exact
+0it [00:00, ?it/s][32m22:44:27[0m :: [1;35m  WriteGear  [0m :: [1;31m[2;33mWARNING [0m :: [1;37mOptional `-disable_ffmpeg_window` flag is only available on Windows OS with `logging=False`. Discarding![0m
+4it [00:00, 38.81it/s]22it [00:00, 118.44it/s]38it [00:00, 136.80it/s]52it [00:00, 137.23it/s]67it [00:00, 139.47it/s]82it [00:00, 142.80it/s]97it [00:00, 143.59it/s]112it [00:00, 145.53it/s]127it [00:00, 145.93it/s]142it [00:01, 146.12it/s]157it [00:01, 147.25it/s]172it [00:01, 148.00it/s]187it [00:01, 148.36it/s]201it [00:01, 141.98it/s]
+48 ยีราฟ exact
+0it [00:00, ?it/s][32m22:44:29[0m :: [1;35m  WriteGear  [0m :: [1;31m[2;33mWARNING [0m :: [1;37mOptional `-disable_ffmpeg_window` flag is only available on Windows OS with `logging=False`. Discarding![0m
+4it [00:00, 39.32it/s]21it [00:00, 115.21it/s]38it [00:00, 136.59it/s]52it [00:00, 135.08it/s]66it [00:00, 136.74it/s]82it [00:00, 141.73it/s]97it [00:00, 143.77it/s]113it [00:00, 146.47it/s]128it [00:00, 147.33it/s]143it [00:01, 147.97it/s]158it [00:01, 148.29it/s]173it [00:01, 146.89it/s]188it [00:01, 146.64it/s]201it [00:01, 141.40it/s]
+49 ช่วงอก exact
+0it [00:00, ?it/s][32m22:44:31[0m :: [1;35m  WriteGear  [0m :: [1;31m[2;33mWARNING [0m :: [1;37mOptional `-disable_ffmpeg_window` flag is only available on Windows OS with `logging=False`. Discarding![0m
+4it [00:00, 39.28it/s]21it [00:00, 112.20it/s]38it [00:00, 135.69it/s]52it [00:00, 134.21it/s]66it [00:00, 135.87it/s]81it [00:00, 140.00it/s]96it [00:00, 141.91it/s]111it [00:00, 144.25it/s]127it [00:00, 146.27it/s]142it [00:01, 147.12it/s]157it [00:01, 147.64it/s]172it [00:01, 146.46it/s]176it [00:01, 139.45it/s]
+50 ศีรษะ exact
+0it [00:00, ?it/s][32m22:44:33[0m :: [1;35m  WriteGear  [0m :: [1;31m[2;33mWARNING [0m :: [1;37mOptional `-disable_ffmpeg_window` flag is only available on Windows OS with `logging=False`. Discarding![0m
+4it [00:00, 38.91it/s]21it [00:00, 114.07it/s]38it [00:00, 138.72it/s]52it [00:00, 135.09it/s]66it [00:00, 136.76it/s]81it [00:00, 139.71it/s]96it [00:00, 141.81it/s]101it [00:00, 134.02it/s]
+51 ไม่ยอมรับ exact
+0it [00:00, ?it/s][32m22:44:34[0m :: [1;35m  WriteGear  [0m :: [1;31m[2;33mWARNING [0m :: [1;37mOptional `-disable_ffmpeg_window` flag is only available on Windows OS with `logging=False`. Discarding![0m
+4it [00:00, 39.71it/s]21it [00:00, 115.18it/s]38it [00:00, 139.59it/s]52it [00:00, 137.23it/s]67it [00:00, 138.19it/s]83it [00:00, 142.58it/s]98it [00:00, 143.88it/s]113it [00:00, 144.27it/s]129it [00:00, 146.35it/s]145it [00:01, 148.72it/s]160it [00:01, 148.45it/s]176it [00:01, 149.51it/s]191it [00:01, 149.14it/s]206it [00:01, 148.91it/s]222it [00:01, 149.90it/s]238it [00:01, 150.56it/s]251it [00:01, 143.97it/s]
+52 สุราษฎร์ธานี exact
+0it [00:00, ?it/s][32m22:44:37[0m :: [1;35m  WriteGear  [0m :: [1;31m[2;33mWARNING [0m :: [1;37mOptional `-disable_ffmpeg_window` flag is only available on Windows OS with `logging=False`. Discarding![0m
+4it [00:00, 39.61it/s]21it [00:00, 114.39it/s]38it [00:00, 135.49it/s]52it [00:00, 135.17it/s]66it [00:00, 136.58it/s]81it [00:00, 138.01it/s]96it [00:00, 141.47it/s]111it [00:00, 142.32it/s]126it [00:00, 143.92it/s]141it [00:01, 144.31it/s]157it [00:01, 145.61it/s]172it [00:01, 146.28it/s]187it [00:01, 146.41it/s]201it [00:01, 139.95it/s]
+53 เห็บ exact
+0it [00:00, ?it/s][32m22:44:39[0m :: [1;35m  WriteGear  [0m :: [1;31m[2;33mWARNING [0m :: [1;37mOptional `-disable_ffmpeg_window` flag is only available on Windows OS with `logging=False`. Discarding![0m
+5it [00:00, 47.29it/s]22it [00:00, 116.84it/s]39it [00:00, 136.11it/s]53it [00:00, 136.98it/s]68it [00:00, 139.41it/s]83it [00:00, 141.62it/s]99it [00:00, 145.13it/s]114it [00:00, 144.79it/s]129it [00:00, 142.94it/s]144it [00:01, 143.14it/s]159it [00:01, 143.29it/s]174it [00:01, 144.10it/s]189it [00:01, 144.39it/s]201it [00:01, 139.88it/s]
+54 วัดสระเกศ exact
+0it [00:00, ?it/s][32m22:44:41[0m :: [1;35m  WriteGear  [0m :: [1;31m[2;33mWARNING [0m :: [1;37mOptional `-disable_ffmpeg_window` flag is only available on Windows OS with `logging=False`. Discarding![0m
+5it [00:00, 47.22it/s]24it [00:00, 126.85it/s]40it [00:00, 140.58it/s]55it [00:00, 138.38it/s]70it [00:00, 140.60it/s]85it [00:00, 142.57it/s]100it [00:00, 144.54it/s]116it [00:00, 147.08it/s]132it [00:00, 149.62it/s]148it [00:01, 149.98it/s]164it [00:01, 149.54it/s]176it [00:01, 143.03it/s]
+55 ฉ exact
+0it [00:00, ?it/s][32m22:44:43[0m :: [1;35m  WriteGear  [0m :: [1;31m[2;33mWARNING [0m :: [1;37mOptional `-disable_ffmpeg_window` flag is only available on Windows OS with `logging=False`. Discarding![0m
+4it [00:00, 38.99it/s]21it [00:00, 114.85it/s]38it [00:00, 138.63it/s]52it [00:00, 138.58it/s]67it [00:00, 140.82it/s]82it [00:00, 143.38it/s]97it [00:00, 143.99it/s]112it [00:00, 144.68it/s]127it [00:00, 145.78it/s]142it [00:01, 143.72it/s]157it [00:01, 145.01it/s]173it [00:01, 146.56it/s]188it [00:01, 147.17it/s]204it [00:01, 148.67it/s]219it [00:01, 147.19it/s]226it [00:01, 141.53it/s]
+56 ต่อ exact
+0it [00:00, ?it/s][32m22:44:46[0m :: [1;35m  WriteGear  [0m :: [1;31m[2;33mWARNING [0m :: [1;37mOptional `-disable_ffmpeg_window` flag is only available on Windows OS with `logging=False`. Discarding![0m
+4it [00:00, 38.85it/s]20it [00:00, 106.49it/s]36it [00:00, 127.89it/s]49it [00:00, 127.55it/s]62it [00:00, 127.75it/s]76it [00:00, 131.53it/s]90it [00:00, 133.14it/s]104it [00:00, 132.87it/s]118it [00:00, 134.17it/s]132it [00:01, 135.78it/s]146it [00:01, 135.83it/s]160it [00:01, 136.02it/s]174it [00:01, 137.13it/s]176it [00:01, 130.61it/s]
+57 บะหมี่ exact
+0it [00:00, ?it/s][32m22:44:48[0m :: [1;35m  WriteGear  [0m :: [1;31m[2;33mWARNING [0m :: [1;37mOptional `-disable_ffmpeg_window` flag is only available on Windows OS with `logging=False`. Discarding![0m
+3it [00:00, 29.82it/s]19it [00:00, 105.35it/s]35it [00:00, 129.88it/s]48it [00:00, 129.28it/s]61it [00:00, 129.08it/s]76it [00:00, 133.30it/s]91it [00:00, 137.70it/s]106it [00:00, 139.10it/s]121it [00:00, 139.97it/s]136it [00:01, 141.43it/s]151it [00:01, 142.82it/s]166it [00:01, 143.05it/s]181it [00:01, 132.95it/s]195it [00:01, 133.51it/s]210it [00:01, 138.12it/s]226it [00:01, 141.97it/s]241it [00:01, 143.71it/s]251it [00:01, 135.99it/s]
+58 สุขศึกษา exact
+0it [00:00, ?it/s][32m22:44:50[0m :: [1;35m  WriteGear  [0m :: [1;31m[2;33mWARNING [0m :: [1;37mOptional `-disable_ffmpeg_window` flag is only available on Windows OS with `logging=False`. Discarding![0m
+5it [00:00, 47.21it/s]23it [00:00, 121.64it/s]39it [00:00, 138.21it/s]53it [00:00, 135.88it/s]68it [00:00, 140.52it/s]84it [00:00, 145.24it/s]99it [00:00, 145.97it/s]114it [00:00, 146.93it/s]129it [00:00, 147.50it/s]145it [00:01, 148.74it/s]161it [00:01, 149.50it/s]176it [00:01, 142.87it/s]
+59 นั่ง exact
+0it [00:00, ?it/s][32m22:44:52[0m :: [1;35m  WriteGear  [0m :: [1;31m[2;33mWARNING [0m :: [1;37mOptional `-disable_ffmpeg_window` flag is only available on Windows OS with `logging=False`. Discarding![0m
+4it [00:00, 39.86it/s]22it [00:00, 118.53it/s]39it [00:00, 136.63it/s]53it [00:00, 136.02it/s]68it [00:00, 138.62it/s]83it [00:00, 142.22it/s]98it [00:00, 143.93it/s]114it [00:00, 146.91it/s]129it [00:00, 146.73it/s]144it [00:01, 146.37it/s]159it [00:01, 146.87it/s]174it [00:01, 146.75it/s]190it [00:01, 148.27it/s]201it [00:01, 141.86it/s]
+60 ไข่เยี่ยวม้า exact
+0it [00:00, ?it/s][32m22:44:54[0m :: [1;35m  WriteGear  [0m :: [1;31m[2;33mWARNING [0m :: [1;37mOptional `-disable_ffmpeg_window` flag is only available on Windows OS with `logging=False`. Discarding![0m
+5it [00:00, 46.97it/s]23it [00:00, 121.47it/s]39it [00:00, 138.03it/s]53it [00:00, 137.94it/s]68it [00:00, 139.83it/s]83it [00:00, 142.46it/s]98it [00:00, 143.98it/s]113it [00:00, 144.76it/s]128it [00:00, 144.79it/s]143it [00:01, 145.84it/s]158it [00:01, 147.01it/s]173it [00:01, 146.76it/s]176it [00:01, 141.06it/s]
+61 เป็นห่วง exact
+0it [00:00, ?it/s][32m22:44:56[0m :: [1;35m  WriteGear  [0m :: [1;31m[2;33mWARNING [0m :: [1;37mOptional `-disable_ffmpeg_window` flag is only available on Windows OS with `logging=False`. Discarding![0m
+4it [00:00, 39.91it/s]22it [00:00, 119.14it/s]39it [00:00, 137.76it/s]53it [00:00, 136.01it/s]68it [00:00, 138.22it/s]83it [00:00, 141.89it/s]98it [00:00, 144.05it/s]113it [00:00, 143.85it/s]128it [00:00, 143.24it/s]143it [00:01, 144.03it/s]158it [00:01, 143.31it/s]173it [00:01, 142.58it/s]188it [00:01, 139.30it/s]201it [00:01, 138.02it/s]
+62 ขอโทษ exact
+0it [00:00, ?it/s][32m22:44:58[0m :: [1;35m  WriteGear  [0m :: [1;31m[2;33mWARNING [0m :: [1;37mOptional `-disable_ffmpeg_window` flag is only available on Windows OS with `logging=False`. Discarding![0m
+4it [00:00, 37.68it/s]21it [00:00, 110.73it/s]37it [00:00, 130.30it/s]51it [00:00, 130.24it/s]65it [00:00, 131.68it/s]80it [00:00, 136.99it/s]94it [00:00, 131.91it/s]109it [00:00, 136.11it/s]124it [00:00, 139.54it/s]139it [00:01, 141.32it/s]154it [00:01, 143.54it/s]170it [00:01, 145.84it/s]176it [00:01, 135.63it/s]
+63 ชัด exact
+0it [00:00, ?it/s][32m22:45:00[0m :: [1;35m  WriteGear  [0m :: [1;31m[2;33mWARNING [0m :: [1;37mOptional `-disable_ffmpeg_window` flag is only available on Windows OS with `logging=False`. Discarding![0m
+4it [00:00, 39.79it/s]22it [00:00, 119.52it/s]39it [00:00, 138.17it/s]54it [00:00, 139.46it/s]69it [00:00, 141.13it/s]85it [00:00, 145.03it/s]100it [00:00, 145.36it/s]116it [00:00, 147.24it/s]131it [00:00, 145.66it/s]146it [00:01, 145.27it/s]162it [00:01, 147.92it/s]177it [00:01, 147.67it/s]192it [00:01, 148.29it/s]208it [00:01, 148.89it/s]223it [00:01, 149.09it/s]226it [00:01, 143.54it/s]
+64 สระแก้ว exact
+0it [00:00, ?it/s][32m22:45:03[0m :: [1;35m  WriteGear  [0m :: [1;31m[2;33mWARNING [0m :: [1;37mOptional `-disable_ffmpeg_window` flag is only available on Windows OS with `logging=False`. Discarding![0m
+4it [00:00, 38.94it/s]22it [00:00, 118.17it/s]39it [00:00, 139.63it/s]53it [00:00, 135.20it/s]67it [00:00, 135.91it/s]82it [00:00, 140.04it/s]97it [00:00, 141.68it/s]112it [00:00, 144.18it/s]127it [00:00, 145.29it/s]142it [00:01, 145.95it/s]151it [00:01, 138.70it/s]
+65 สีเขียว exact
+0it [00:00, ?it/s][32m22:45:04[0m :: [1;35m  WriteGear  [0m :: [1;31m[2;33mWARNING [0m :: [1;37mOptional `-disable_ffmpeg_window` flag is only available on Windows OS with `logging=False`. Discarding![0m
+4it [00:00, 39.06it/s]18it [00:00, 96.33it/s]32it [00:00, 113.81it/s]46it [00:00, 122.50it/s]61it [00:00, 128.63it/s]76it [00:00, 135.39it/s]92it [00:00, 141.85it/s]108it [00:00, 145.82it/s]123it [00:00, 146.58it/s]139it [00:01, 148.14it/s]154it [00:01, 147.35it/s]170it [00:01, 149.25it/s]185it [00:01, 149.46it/s]201it [00:01, 150.40it/s]201it [00:01, 138.90it/s]
+66 หนังสือ exact
+0it [00:00, ?it/s][32m22:45:07[0m :: [1;35m  WriteGear  [0m :: [1;31m[2;33mWARNING [0m :: [1;37mOptional `-disable_ffmpeg_window` flag is only available on Windows OS with `logging=False`. Discarding![0m
+5it [00:00, 46.98it/s]23it [00:00, 120.53it/s]39it [00:00, 137.00it/s]53it [00:00, 136.78it/s]67it [00:00, 137.80it/s]83it [00:00, 141.85it/s]98it [00:00, 143.32it/s]101it [00:00, 135.59it/s]
+67 ไม่อร่อย exact
+0it [00:00, ?it/s][32m22:45:08[0m :: [1;35m  WriteGear  [0m :: [1;31m[2;33mWARNING [0m :: [1;37mOptional `-disable_ffmpeg_window` flag is only available on Windows OS with `logging=False`. Discarding![0m
+4it [00:00, 39.61it/s]21it [00:00, 115.45it/s]39it [00:00, 140.11it/s]53it [00:00, 138.62it/s]68it [00:00, 139.92it/s]83it [00:00, 142.45it/s]98it [00:00, 143.89it/s]113it [00:00, 143.99it/s]128it [00:00, 144.65it/s]143it [00:01, 145.55it/s]158it [00:01, 145.23it/s]174it [00:01, 147.55it/s]189it [00:01, 146.41it/s]201it [00:01, 141.06it/s]
+68 แตน exact
+0it [00:00, ?it/s][32m22:45:10[0m :: [1;35m  WriteGear  [0m :: [1;31m[2;33mWARNING [0m :: [1;37mOptional `-disable_ffmpeg_window` flag is only available on Windows OS with `logging=False`. Discarding![0m
+4it [00:00, 39.81it/s]22it [00:00, 118.44it/s]39it [00:00, 138.90it/s]53it [00:00, 138.24it/s]68it [00:00, 140.24it/s]83it [00:00, 143.33it/s]99it [00:00, 146.45it/s]115it [00:00, 148.08it/s]131it [00:00, 148.71it/s]146it [00:01, 148.39it/s]162it [00:01, 150.64it/s]178it [00:01, 152.61it/s]194it [00:01, 152.48it/s]210it [00:01, 153.30it/s]226it [00:01, 151.49it/s]242it [00:01, 151.05it/s]251it [00:01, 145.61it/s]
+69 จานคว่ำ exact
+0it [00:00, ?it/s][32m22:45:13[0m :: [1;35m  WriteGear  [0m :: [1;31m[2;33mWARNING [0m :: [1;37mOptional `-disable_ffmpeg_window` flag is only available on Windows OS with `logging=False`. Discarding![0m
+5it [00:00, 47.28it/s]23it [00:00, 121.17it/s]40it [00:00, 137.72it/s]55it [00:00, 138.66it/s]70it [00:00, 141.10it/s]86it [00:00, 145.05it/s]102it [00:00, 148.38it/s]117it [00:00, 147.46it/s]133it [00:00, 148.51it/s]149it [00:01, 148.34it/s]165it [00:01, 150.12it/s]181it [00:01, 151.10it/s]197it [00:01, 150.83it/s]201it [00:01, 144.14it/s]
+70 ดวงอาทิตย์ exact
+0it [00:00, ?it/s][32m22:45:15[0m :: [1;35m  WriteGear  [0m :: [1;31m[2;33mWARNING [0m :: [1;37mOptional `-disable_ffmpeg_window` flag is only available on Windows OS with `logging=False`. Discarding![0m
+5it [00:00, 47.97it/s]23it [00:00, 122.52it/s]39it [00:00, 136.70it/s]53it [00:00, 136.64it/s]68it [00:00, 138.46it/s]83it [00:00, 141.56it/s]98it [00:00, 143.75it/s]113it [00:00, 145.26it/s]128it [00:00, 144.16it/s]144it [00:01, 146.96it/s]159it [00:01, 147.66it/s]175it [00:01, 148.95it/s]191it [00:01, 148.42it/s]201it [00:01, 142.36it/s]
+71 ราชอาณาจักรเนเธอร์แลนด์_sign1 exact
+0it [00:00, ?it/s][32m22:45:17[0m :: [1;35m  WriteGear  [0m :: [1;31m[2;33mWARNING [0m :: [1;37mOptional `-disable_ffmpeg_window` flag is only available on Windows OS with `logging=False`. Discarding![0m
+5it [00:00, 48.04it/s]24it [00:00, 127.65it/s]41it [00:00, 141.89it/s]56it [00:00, 141.29it/s]71it [00:00, 144.00it/s]87it [00:00, 146.22it/s]103it [00:00, 147.13it/s]119it [00:00, 147.67it/s]135it [00:00, 148.77it/s]151it [00:01, 149.66it/s]167it [00:01, 149.09it/s]176it [00:01, 143.91it/s]
+72 โต้แย้ง exact
+0it [00:00, ?it/s][32m22:45:19[0m :: [1;35m  WriteGear  [0m :: [1;31m[2;33mWARNING [0m :: [1;37mOptional `-disable_ffmpeg_window` flag is only available on Windows OS with `logging=False`. Discarding![0m
+4it [00:00, 39.68it/s]22it [00:00, 120.60it/s]39it [00:00, 138.70it/s]53it [00:00, 136.05it/s]67it [00:00, 137.32it/s]83it [00:00, 141.46it/s]99it [00:00, 145.20it/s]114it [00:00, 144.61it/s]129it [00:00, 143.51it/s]145it [00:01, 146.01it/s]160it [00:01, 146.82it/s]175it [00:01, 147.20it/s]191it [00:01, 147.40it/s]201it [00:01, 140.86it/s]
+73 จังหวัด exact
+0it [00:00, ?it/s][32m22:45:21[0m :: [1;35m  WriteGear  [0m :: [1;31m[2;33mWARNING [0m :: [1;37mOptional `-disable_ffmpeg_window` flag is only available on Windows OS with `logging=False`. Discarding![0m
+4it [00:00, 39.78it/s]22it [00:00, 120.32it/s]39it [00:00, 139.69it/s]53it [00:00, 136.54it/s]67it [00:00, 136.71it/s]82it [00:00, 140.71it/s]97it [00:00, 143.52it/s]112it [00:00, 144.53it/s]127it [00:00, 145.19it/s]142it [00:01, 145.40it/s]157it [00:01, 146.25it/s]172it [00:01, 147.05it/s]176it [00:01, 140.19it/s]
+74 ฆ่า_sign1 exact
+0it [00:00, ?it/s][32m22:45:23[0m :: [1;35m  WriteGear  [0m :: [1;31m[2;33mWARNING [0m :: [1;37mOptional `-disable_ffmpeg_window` flag is only available on Windows OS with `logging=False`. Discarding![0m
+4it [00:00, 39.54it/s]22it [00:00, 120.12it/s]39it [00:00, 140.13it/s]54it [00:00, 140.81it/s]69it [00:00, 141.76it/s]85it [00:00, 145.15it/s]100it [00:00, 145.37it/s]116it [00:00, 147.78it/s]131it [00:00, 147.77it/s]147it [00:01, 150.23it/s]163it [00:01, 152.51it/s]179it [00:01, 153.85it/s]195it [00:01, 152.01it/s]201it [00:01, 143.63it/s]
+75 สบายดี exact
+0it [00:00, ?it/s][32m22:45:25[0m :: [1;35m  WriteGear  [0m :: [1;31m[2;33mWARNING [0m :: [1;37mOptional `-disable_ffmpeg_window` flag is only available on Windows OS with `logging=False`. Discarding![0m
+5it [00:00, 47.62it/s]23it [00:00, 120.99it/s]40it [00:00, 139.99it/s]55it [00:00, 139.13it/s]70it [00:00, 141.93it/s]86it [00:00, 145.33it/s]102it [00:00, 148.69it/s]118it [00:00, 149.29it/s]133it [00:00, 148.33it/s]148it [00:01, 147.99it/s]163it [00:01, 147.66it/s]178it [00:01, 143.65it/s]193it [00:01, 143.56it/s]208it [00:01, 143.87it/s]223it [00:01, 144.20it/s]226it [00:01, 142.23it/s]
+76 เหนื่อย exact
+0it [00:00, ?it/s][32m22:45:27[0m :: [1;35m  WriteGear  [0m :: [1;31m[2;33mWARNING [0m :: [1;37mOptional `-disable_ffmpeg_window` flag is only available on Windows OS with `logging=False`. Discarding![0m
+4it [00:00, 39.57it/s]21it [00:00, 114.49it/s]38it [00:00, 138.43it/s]52it [00:00, 136.63it/s]66it [00:00, 136.44it/s]81it [00:00, 140.35it/s]97it [00:00, 143.47it/s]113it [00:00, 145.67it/s]129it [00:00, 147.41it/s]144it [00:01, 147.11it/s]159it [00:01, 147.11it/s]174it [00:01, 147.68it/s]189it [00:01, 143.25it/s]201it [00:01, 140.21it/s]
+77 ล่าม exact
+0it [00:00, ?it/s][32m22:45:29[0m :: [1;35m  WriteGear  [0m :: [1;31m[2;33mWARNING [0m :: [1;37mOptional `-disable_ffmpeg_window` flag is only available on Windows OS with `logging=False`. Discarding![0m
+4it [00:00, 39.85it/s]21it [00:00, 115.94it/s]37it [00:00, 135.90it/s]51it [00:00, 132.89it/s]65it [00:00, 134.91it/s]80it [00:00, 138.23it/s]95it [00:00, 138.85it/s]110it [00:00, 141.81it/s]125it [00:00, 143.50it/s]140it [00:01, 143.65it/s]155it [00:01, 144.45it/s]170it [00:01, 144.12it/s]185it [00:01, 144.33it/s]200it [00:01, 144.33it/s]215it [00:01, 143.95it/s]230it [00:01, 144.46it/s]245it [00:01, 145.16it/s]260it [00:01, 146.24it/s]276it [00:01, 147.65it/s]276it [00:01, 140.76it/s]
+78 อุทัยธานี exact
+0it [00:00, ?it/s][32m22:45:32[0m :: [1;35m  WriteGear  [0m :: [1;31m[2;33mWARNING [0m :: [1;37mOptional `-disable_ffmpeg_window` flag is only available on Windows OS with `logging=False`. Discarding![0m
+5it [00:00, 46.99it/s]23it [00:00, 123.01it/s]39it [00:00, 139.04it/s]54it [00:00, 137.92it/s]68it [00:00, 137.65it/s]84it [00:00, 143.45it/s]99it [00:00, 145.38it/s]114it [00:00, 145.90it/s]129it [00:00, 146.61it/s]144it [00:01, 146.15it/s]159it [00:01, 145.66it/s]175it [00:01, 147.53it/s]190it [00:01, 147.10it/s]205it [00:01, 146.85it/s]220it [00:01, 147.24it/s]235it [00:01, 147.41it/s]251it [00:01, 148.39it/s]251it [00:01, 143.12it/s]
+79 ส่องไฟฉาย exact
+0it [00:00, ?it/s][32m22:45:35[0m :: [1;35m  WriteGear  [0m :: [1;31m[2;33mWARNING [0m :: [1;37mOptional `-disable_ffmpeg_window` flag is only available on Windows OS with `logging=False`. Discarding![0m
+4it [00:00, 39.65it/s]21it [00:00, 115.14it/s]38it [00:00, 137.28it/s]52it [00:00, 136.52it/s]66it [00:00, 136.57it/s]82it [00:00, 142.31it/s]97it [00:00, 143.72it/s]112it [00:00, 144.20it/s]127it [00:00, 144.08it/s]142it [00:01, 145.74it/s]157it [00:01, 145.63it/s]173it [00:01, 146.81it/s]188it [00:01, 147.72it/s]201it [00:01, 141.04it/s]
+80 การออกแบบ exact
+0it [00:00, ?it/s][32m22:45:37[0m :: [1;35m  WriteGear  [0m :: [1;31m[2;33mWARNING [0m :: [1;37mOptional `-disable_ffmpeg_window` flag is only available on Windows OS with `logging=False`. Discarding![0m
+4it [00:00, 39.38it/s]22it [00:00, 119.55it/s]39it [00:00, 139.39it/s]53it [00:00, 139.32it/s]68it [00:00, 140.90it/s]83it [00:00, 143.80it/s]99it [00:00, 146.46it/s]114it [00:00, 146.95it/s]130it [00:00, 148.62it/s]145it [00:01, 148.59it/s]161it [00:01, 149.88it/s]176it [00:01, 143.04it/s]
+81 แพ้ exact
+0it [00:00, ?it/s][32m22:45:39[0m :: [1;35m  WriteGear  [0m :: [1;31m[2;33mWARNING [0m :: [1;37mOptional `-disable_ffmpeg_window` flag is only available on Windows OS with `logging=False`. Discarding![0m
+5it [00:00, 47.67it/s]23it [00:00, 121.86it/s]39it [00:00, 138.51it/s]53it [00:00, 137.06it/s]67it [00:00, 137.88it/s]83it [00:00, 141.90it/s]98it [00:00, 144.34it/s]113it [00:00, 145.97it/s]129it [00:00, 148.03it/s]145it [00:01, 148.37it/s]161it [00:01, 149.04it/s]176it [00:01, 142.36it/s]
+82 หมา_sign1 exact
+0it [00:00, ?it/s][32m22:45:41[0m :: [1;35m  WriteGear  [0m :: [1;31m[2;33mWARNING [0m :: [1;37mOptional `-disable_ffmpeg_window` flag is only available on Windows OS with `logging=False`. Discarding![0m
+5it [00:00, 47.41it/s]23it [00:00, 119.50it/s]39it [00:00, 136.81it/s]53it [00:00, 136.35it/s]68it [00:00, 139.47it/s]83it [00:00, 142.32it/s]99it [00:00, 145.40it/s]114it [00:00, 145.93it/s]129it [00:00, 145.32it/s]144it [00:01, 146.13it/s]159it [00:01, 145.93it/s]174it [00:01, 146.17it/s]190it [00:01, 147.10it/s]201it [00:01, 141.74it/s]
+83 บิ๊กซี exact
+0it [00:00, ?it/s][32m22:45:43[0m :: [1;35m  WriteGear  [0m :: [1;31m[2;33mWARNING [0m :: [1;37mOptional `-disable_ffmpeg_window` flag is only available on Windows OS with `logging=False`. Discarding![0m
+5it [00:00, 46.83it/s]22it [00:00, 117.23it/s]39it [00:00, 136.65it/s]54it [00:00, 138.84it/s]69it [00:00, 140.33it/s]84it [00:00, 143.27it/s]99it [00:00, 144.39it/s]114it [00:00, 144.59it/s]129it [00:00, 142.17it/s]144it [00:01, 141.13it/s]159it [00:01, 140.54it/s]174it [00:01, 140.55it/s]189it [00:01, 141.25it/s]204it [00:01, 141.11it/s]219it [00:01, 142.00it/s]226it [00:01, 138.95it/s]
+84 ตุ๊กแก exact
+0it [00:00, ?it/s][32m22:45:45[0m :: [1;35m  WriteGear  [0m :: [1;31m[2;33mWARNING [0m :: [1;37mOptional `-disable_ffmpeg_window` flag is only available on Windows OS with `logging=False`. Discarding![0m
+2it [00:00, 19.40it/s]18it [00:00, 100.10it/s]35it [00:00, 127.73it/s]48it [00:00, 128.33it/s]61it [00:00, 127.56it/s]75it [00:00, 130.97it/s]89it [00:00, 133.20it/s]104it [00:00, 136.09it/s]119it [00:00, 137.04it/s]126it [00:00, 128.40it/s]
+85 ไม่ถูกต้อง exact
+0it [00:00, ?it/s][32m22:45:47[0m :: [1;35m  WriteGear  [0m :: [1;31m[2;33mWARNING [0m :: [1;37mOptional `-disable_ffmpeg_window` flag is only available on Windows OS with `logging=False`. Discarding![0m
+4it [00:00, 38.09it/s]16it [00:00, 84.82it/s]34it [00:00, 124.30it/s]49it [00:00, 131.85it/s]63it [00:00, 133.92it/s]79it [00:00, 139.11it/s]94it [00:00, 141.63it/s]110it [00:00, 143.91it/s]126it [00:00, 146.28it/s]142it [00:01, 147.95it/s]157it [00:01, 147.96it/s]173it [00:01, 148.70it/s]189it [00:01, 149.81it/s]201it [00:01, 139.64it/s]
+86 คุณภาพดี exact
+0it [00:00, ?it/s][32m22:45:49[0m :: [1;35m  WriteGear  [0m :: [1;31m[2;33mWARNING [0m :: [1;37mOptional `-disable_ffmpeg_window` flag is only available on Windows OS with `logging=False`. Discarding![0m
+5it [00:00, 48.04it/s]23it [00:00, 123.93it/s]40it [00:00, 140.40it/s]55it [00:00, 136.21it/s]70it [00:00, 137.92it/s]86it [00:00, 142.20it/s]101it [00:00, 144.23it/s]117it [00:00, 146.72it/s]132it [00:00, 147.55it/s]147it [00:01, 147.83it/s]162it [00:01, 143.93it/s]177it [00:01, 143.82it/s]192it [00:01, 144.14it/s]207it [00:01, 143.84it/s]222it [00:01, 144.87it/s]226it [00:01, 141.29it/s]
+87 ภาคตะวันออกเฉียงเหนือของประเทศไทย exact
+0it [00:00, ?it/s][32m22:45:51[0m :: [1;35m  WriteGear  [0m :: [1;31m[2;33mWARNING [0m :: [1;37mOptional `-disable_ffmpeg_window` flag is only available on Windows OS with `logging=False`. Discarding![0m
+5it [00:00, 47.67it/s]24it [00:00, 127.65it/s]41it [00:00, 142.46it/s]56it [00:00, 141.92it/s]71it [00:00, 142.81it/s]86it [00:00, 143.09it/s]101it [00:00, 145.16it/s]116it [00:00, 145.97it/s]131it [00:00, 145.88it/s]146it [00:01, 145.30it/s]161it [00:01, 145.33it/s]176it [00:01, 146.46it/s]192it [00:01, 147.79it/s]201it [00:01, 142.95it/s]
+88 วัดพระศรีรัตนศาสดาราม exact
+0it [00:00, ?it/s][32m22:45:54[0m :: [1;35m  WriteGear  [0m :: [1;31m[2;33mWARNING [0m :: [1;37mOptional `-disable_ffmpeg_window` flag is only available on Windows OS with `logging=False`. Discarding![0m
+4it [00:00, 39.40it/s]22it [00:00, 118.56it/s]39it [00:00, 139.29it/s]53it [00:00, 138.43it/s]67it [00:00, 138.82it/s]83it [00:00, 144.06it/s]99it [00:00, 145.93it/s]114it [00:00, 147.09it/s]129it [00:00, 147.44it/s]144it [00:01, 147.06it/s]151it [00:01, 140.42it/s]
+89 ถ้า exact
+0it [00:00, ?it/s][32m22:45:55[0m :: [1;35m  WriteGear  [0m :: [1;31m[2;33mWARNING [0m :: [1;37mOptional `-disable_ffmpeg_window` flag is only available on Windows OS with `logging=False`. Discarding![0m
+4it [00:00, 37.94it/s]21it [00:00, 113.38it/s]38it [00:00, 136.38it/s]52it [00:00, 131.00it/s]66it [00:00, 133.54it/s]81it [00:00, 136.47it/s]95it [00:00, 129.93it/s]110it [00:00, 135.06it/s]125it [00:00, 137.94it/s]126it [00:00, 131.08it/s]
+90 ร exact
+0it [00:00, ?it/s][32m22:45:57[0m :: [1;35m  WriteGear  [0m :: [1;31m[2;33mWARNING [0m :: [1;37mOptional `-disable_ffmpeg_window` flag is only available on Windows OS with `logging=False`. Discarding![0m
+4it [00:00, 38.52it/s]21it [00:00, 111.85it/s]37it [00:00, 132.82it/s]51it [00:00, 130.98it/s]65it [00:00, 126.68it/s]80it [00:00, 131.68it/s]95it [00:00, 136.70it/s]111it [00:00, 141.13it/s]126it [00:00, 143.39it/s]141it [00:01, 143.39it/s]156it [00:01, 141.87it/s]171it [00:01, 141.33it/s]186it [00:01, 143.12it/s]201it [00:01, 142.81it/s]216it [00:01, 144.70it/s]226it [00:01, 137.60it/s]
+91 เครื่องถ่ายเอกสาร exact
+0it [00:00, ?it/s][32m22:45:59[0m :: [1;35m  WriteGear  [0m :: [1;31m[2;33mWARNING [0m :: [1;37mOptional `-disable_ffmpeg_window` flag is only available on Windows OS with `logging=False`. Discarding![0m
+5it [00:00, 47.23it/s]23it [00:00, 122.33it/s]40it [00:00, 139.41it/s]54it [00:00, 138.00it/s]69it [00:00, 140.25it/s]85it [00:00, 144.16it/s]100it [00:00, 145.86it/s]116it [00:00, 148.14it/s]132it [00:00, 150.06it/s]148it [00:01, 150.46it/s]164it [00:01, 150.90it/s]180it [00:01, 151.25it/s]196it [00:01, 151.80it/s]212it [00:01, 151.37it/s]226it [00:01, 145.54it/s]
+92 เกวียน exact
+0it [00:00, ?it/s][32m22:46:01[0m :: [1;35m  WriteGear  [0m :: [1;31m[2;33mWARNING [0m :: [1;37mOptional `-disable_ffmpeg_window` flag is only available on Windows OS with `logging=False`. Discarding![0m
+5it [00:00, 47.09it/s]23it [00:00, 119.85it/s]40it [00:00, 139.99it/s]55it [00:00, 138.72it/s]70it [00:00, 142.29it/s]86it [00:00, 145.00it/s]101it [00:00, 145.55it/s]116it [00:00, 146.86it/s]132it [00:00, 148.40it/s]147it [00:01, 148.63it/s]162it [00:01, 148.75it/s]177it [00:01, 148.04it/s]193it [00:01, 148.73it/s]201it [00:01, 143.60it/s]
+93 ชื่อ exact
+0it [00:00, ?it/s][32m22:46:04[0m :: [1;35m  WriteGear  [0m :: [1;31m[2;33mWARNING [0m :: [1;37mOptional `-disable_ffmpeg_window` flag is only available on Windows OS with `logging=False`. Discarding![0m
+4it [00:00, 39.82it/s]22it [00:00, 118.49it/s]39it [00:00, 137.48it/s]53it [00:00, 135.10it/s]68it [00:00, 137.39it/s]83it [00:00, 141.44it/s]98it [00:00, 142.93it/s]113it [00:00, 144.14it/s]128it [00:00, 145.83it/s]143it [00:01, 146.76it/s]159it [00:01, 148.47it/s]174it [00:01, 148.87it/s]189it [00:01, 148.61it/s]201it [00:01, 141.68it/s]
+94 บาง exact
+0it [00:00, ?it/s][32m22:46:06[0m :: [1;35m  WriteGear  [0m :: [1;31m[2;33mWARNING [0m :: [1;37mOptional `-disable_ffmpeg_window` flag is only available on Windows OS with `logging=False`. Discarding![0m
+4it [00:00, 39.56it/s]22it [00:00, 118.57it/s]39it [00:00, 137.99it/s]53it [00:00, 137.92it/s]67it [00:00, 138.54it/s]82it [00:00, 141.44it/s]97it [00:00, 143.38it/s]113it [00:00, 145.35it/s]128it [00:00, 145.02it/s]143it [00:01, 145.97it/s]158it [00:01, 146.56it/s]173it [00:01, 146.16it/s]188it [00:01, 146.40it/s]201it [00:01, 141.64it/s]
+95 เอกซ์เรย์ exact
+0it [00:00, ?it/s][32m22:46:08[0m :: [1;35m  WriteGear  [0m :: [1;31m[2;33mWARNING [0m :: [1;37mOptional `-disable_ffmpeg_window` flag is only available on Windows OS with `logging=False`. Discarding![0m
+4it [00:00, 39.43it/s]23it [00:00, 124.13it/s]40it [00:00, 142.43it/s]55it [00:00, 139.56it/s]70it [00:00, 141.28it/s]86it [00:00, 145.45it/s]101it [00:00, 146.52it/s]116it [00:00, 147.41it/s]131it [00:00, 147.69it/s]146it [00:01, 146.21it/s]161it [00:01, 146.91it/s]176it [00:01, 145.51it/s]191it [00:01, 136.29it/s]201it [00:01, 139.75it/s]
+96 เจ๊ท exact
+0it [00:00, ?it/s][32m22:46:10[0m :: [1;35m  WriteGear  [0m :: [1;31m[2;33mWARNING [0m :: [1;37mOptional `-disable_ffmpeg_window` flag is only available on Windows OS with `logging=False`. Discarding![0m
+3it [00:00, 26.86it/s]14it [00:00, 72.70it/s]27it [00:00, 96.99it/s]42it [00:00, 115.11it/s]55it [00:00, 117.53it/s]70it [00:00, 125.77it/s]85it [00:00, 132.17it/s]100it [00:00, 136.54it/s]115it [00:00, 139.32it/s]130it [00:01, 141.28it/s]145it [00:01, 141.82it/s]160it [00:01, 143.98it/s]175it [00:01, 143.68it/s]190it [00:01, 145.41it/s]205it [00:01, 146.71it/s]220it [00:01, 147.13it/s]226it [00:01, 133.27it/s]
+97 ลอย exact
+0it [00:00, ?it/s][32m22:46:12[0m :: [1;35m  WriteGear  [0m :: [1;31m[2;33mWARNING [0m :: [1;37mOptional `-disable_ffmpeg_window` flag is only available on Windows OS with `logging=False`. Discarding![0m
+5it [00:00, 47.34it/s]23it [00:00, 121.20it/s]40it [00:00, 140.26it/s]55it [00:00, 138.23it/s]70it [00:00, 139.51it/s]85it [00:00, 142.36it/s]101it [00:00, 146.56it/s]117it [00:00, 149.28it/s]132it [00:00, 149.17it/s]147it [00:01, 147.79it/s]162it [00:01, 147.99it/s]177it [00:01, 148.42it/s]193it [00:01, 149.15it/s]201it [00:01, 143.37it/s]
+98 ทำงานอย่างระมัดระวัง exact
+0it [00:00, ?it/s][32m22:46:15[0m :: [1;35m  WriteGear  [0m :: [1;31m[2;33mWARNING [0m :: [1;37mOptional `-disable_ffmpeg_window` flag is only available on Windows OS with `logging=False`. Discarding![0m
+4it [00:00, 39.20it/s]22it [00:00, 120.85it/s]39it [00:00, 138.40it/s]53it [00:00, 136.32it/s]68it [00:00, 138.07it/s]84it [00:00, 143.22it/s]99it [00:00, 142.40it/s]114it [00:00, 142.93it/s]126it [00:00, 137.10it/s]
+99 เรียน exact
+ffmpeg used: True {'exact': 100}

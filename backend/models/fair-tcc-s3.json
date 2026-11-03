@@ -1,0 +1,1 @@
+{"tokenizer": "tcc", "seed": 3, "source_len": 62, "csv": "datasets/fair_tcc.csv", "vocab": "datasets/th_vocab-fair-tcc.txt", "model": "models/fair-tcc-s3.hdf5", "best_epoch": 13, "best_val_loss": 0.11556477844715118, "best_val_accuracy": 0.9755677580833435, "epochs_done": 30}

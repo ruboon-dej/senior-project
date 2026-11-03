@@ -1,0 +1,1 @@
+{"tokenizer": "newmm", "seed": 2, "source_len": 22, "csv": "datasets/fair_newmm.csv", "vocab": "datasets/th_vocab-fair-newmm.txt", "model": "models/fair-newmm-s2.hdf5", "best_epoch": 22, "best_val_loss": 0.062122222036123276, "best_val_accuracy": 0.9882477521896362, "epochs_done": 30}

@@ -1,5 +1,5 @@
 import os, re
-BACKEND = os.getenv("GLOSS_BACKEND", "transformer")   # transformer | mt5 | llm | auto
+BACKEND = os.getenv("GLOSS_BACKEND", "transformer")
 _mt5 = None
 
 def _load_mt5():
@@ -19,7 +19,7 @@ def mt5_glosses(text, beams=5):
         outs = model.generate(**enc, num_beams=beams, num_return_sequences=beams,
                               max_new_tokens=48)
     cands = [tok.decode(o, skip_special_tokens=True).split() for o in outs]
-    for c in cands:                          # first n-best entry fully inside the vocabulary
+    for c in cands:
         if c and all(g in VOCAB for g in c):
             return c, True
     return cands[0].copy(), False
@@ -27,7 +27,7 @@ def mt5_glosses(text, beams=5):
 def get_glosses(text):
     if BACKEND == "transformer":
         from thai2thsl import thai_to_tsl_glosses
-        return list(thai_to_tsl_glosses(text))
+        return list(thai_to_tsl_glosses(text, skip_unknown=True))
 
     if BACKEND == "llm":
         from llm_gloss import llm_glosses

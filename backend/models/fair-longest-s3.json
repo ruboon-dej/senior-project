@@ -1,0 +1,1 @@
+{"tokenizer": "longest", "seed": 3, "source_len": 23, "csv": "datasets/fair_longest.csv", "vocab": "datasets/th_vocab-fair-longest.txt", "model": "models/fair-longest-s3.hdf5", "best_epoch": 13, "best_val_loss": 0.06493417173624039, "best_val_accuracy": 0.9875408411026001, "epochs_done": 30}
