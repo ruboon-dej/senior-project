@@ -1,0 +1,17 @@
+# Numerical computing
+numpy==1.26.4
+pandas==2.2.3
+pyarrow==15.0.2
+
+# Hugging Face
+transformers==4.39.3
+datasets==2.17.1
+sentencepiece==0.2.0
+accelerate==0.27.2
+
+# Dataset compatibility
+fsspec[http]==2023.10.0
+
+# Evaluation
+sacrebleu==2.5.1
+scikit-learn==1.4.1.post1

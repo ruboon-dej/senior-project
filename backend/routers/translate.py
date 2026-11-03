@@ -10,9 +10,10 @@ from models.schemas import (
     ThaiToThSLResponse,
     ThSLToThaiResponse,
 )
-from thai2thsl import thai_to_tsl_glosses, lookup, pose_sequence, find_unknown_words
+from thai2thsl import lookup, pose_sequence, find_unknown_words
 from pronouns import normalize_pronouns, unsupported_pronouns
 from thai2thsl import TOKENIZER_ENGINE
+from gloss_backends import get_glosses
 from name_handling import split_by_names, fingerspell, MAX_SPELL_LETTERS
 
 router = APIRouter(prefix="/api/translate", tags=["translate"])
@@ -29,7 +30,7 @@ def thai_to_thsl(payload: ThaiToThSLRequest, request: Request) -> ThaiToThSLResp
     if not text.strip():
         raise HTTPException(
             status_code=404,
-            detail="No translatable words after removing pronouns without signs.",
+            detail="ไม่มีคำที่แปลได้หลังตัดสรรพนามที่ไม่มีข้อมูลท่ามือ",
         )
 
     tokens = word_tokenize(text, engine=TOKENIZER_ENGINE)
@@ -51,17 +52,17 @@ def thai_to_thsl(payload: ThaiToThSLRequest, request: Request) -> ThaiToThSLResp
                 skipped_names.append(value)
         elif value.strip():
             unknown_words.extend(find_unknown_words(value))
-            glosses_decoded.extend(thai_to_tsl_glosses(value, skip_unknown=True))
+            glosses_decoded.extend(get_glosses(value))
 
     pose_list, not_found_list = lookup(list(glosses_decoded))
 
     if len(pose_list) == 0:
         if unknown_words:
-            detail = "Unknown word(s): " + ", ".join(unknown_words) + ". Cannot translate."
+            detail = "ระบบไม่รู้จักคำ: " + ", ".join(unknown_words) + " จึงแปลไม่ได้"
         elif skipped_names:
-            detail = "Name(s) cannot be fingerspelled: " + ", ".join(skipped_names) + ". Cannot translate."
+            detail = "สะกดชื่อด้วยนิ้วมือไม่ได้: " + ", ".join(skipped_names) + " จึงแปลไม่ได้"
         else:
-            detail = "No glosses matched the sign database."
+            detail = "There is no glosses matched with the database"
         raise HTTPException(status_code=404, detail=detail)
 
     unique_name = f"{uuid.uuid4().hex}.mp4"
@@ -74,21 +75,21 @@ def thai_to_thsl(payload: ThaiToThSLRequest, request: Request) -> ThaiToThSLResp
 
     messages = []
     if spelled_names:
-        messages.append("Fingerspelled name(s): " + ", ".join(spelled_names))
+        messages.append("สะกดชื่อด้วยนิ้วมือ: " + ", ".join(spelled_names))
     if skipped_names:
         messages.append(
-            "Name(s) skipped (too long or missing letter signs): " + ", ".join(skipped_names)
+            "ข้ามชื่อ (ยาวเกินหรือไม่มีท่าอักษร): " + ", ".join(skipped_names)
         )
     if unknown_words:
         messages.append(
-            "Unknown word(s): " + ", ".join(unknown_words) + " (skipped in translation)"
+            "ระบบไม่รู้จักคำ: " + ", ".join(unknown_words) + " (ข้ามในการแปล)"
         )
     if not_found_list:
-        messages.append("No sign available for: " + ", ".join(not_found_list))
+        messages.append("ไม่มีท่าสำหรับ: " + ", ".join(not_found_list))
     no_data = unsupported_pronouns(payload.text, TOKENIZER_ENGINE)
     if no_data:
         messages.append(
-            "No sign data for pronoun(s): " + ", ".join(no_data) + " (skipped in translation)"
+            "ไม่มีข้อมูลสรรพนาม: " + ", ".join(no_data) + " (ข้ามในการแปล)"
         )
     missing_message = " | ".join(messages) if messages else None
 
@@ -106,6 +107,6 @@ async def thsl_to_thai(video: UploadFile = File(...)) -> ThSLToThaiResponse:
     _ = await video.read()
 
     return ThSLToThaiResponse(
-        text="Example translated text (mock)",
+        text="ตัวอย่างข้อความที่แปลได้ (mock)",
         confidence=0.87,
     )
